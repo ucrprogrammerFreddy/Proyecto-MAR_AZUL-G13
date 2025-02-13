@@ -1,0 +1,114 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Enlazar el archivo CSS -->
+<link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/PaginaPrincipal.css" asp-append-version="true" />
+
+<div class="container">
+    <div class="header">
+        <h1>MAR AZUL</h1>
+    </div>
+
+
+    @* carrousel *@
+    <div class="col-md-12">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/img/index1.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/img/index.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/img/index3.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+     
+  
+    <!-- Contenedor del video (con imagen de vista previa) -->
+    <div class="video-container">
+        <!-- Miniatura del video, que se muestra antes de cargar el video real -->
+        <img src="/images/thumbnail.jpg" alt="Video de bienvenida" class="thumbnail" data-src="img/video1.mp4" />
+    </div>
+
+    <script>
+        // Crear un IntersectionObserver para cargar el video solo cuando esté en la vista del navegador
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                // Verificamos si el contenedor del video (que contiene la imagen) es visible en la ventana del navegador
+                if (entry.isIntersecting) {
+                    const videoContainer = entry.target;  // Obtener el contenedor donde está la imagen
+                    const videoSrc = videoContainer.querySelector('img').getAttribute('data-src');  // Obtener la ruta del video desde data-src
+
+                    // Crear el elemento <video> dinámicamente
+                    const video = document.createElement('video');
+                    video.width = 640;  // Establecer el ancho del video
+                    video.height = 360;  // Establecer el alto del video
+                    video.controls = true;  // Mostrar los controles del video (play, pause, etc.)
+                    video.src = videoSrc;  // Asignar la ruta del video
+                    video.autoplay = true;  // Opcional: Reproducir el video automáticamente cuando se cargue
+
+                    // Reemplazar la imagen por el video
+                    videoContainer.innerHTML = '';  // Limpiar el contenedor (eliminando la imagen)
+                    videoContainer.appendChild(video);  // Agregar el video al contenedor
+
+                    // Dejar de observar este contenedor, ya que ya hemos cargado el video
+                    observer.unobserve(videoContainer);
+                }
+            });
+        });
+
+        // Observamos todos los contenedores de video en la página
+        document.querySelectorAll('.video-container').forEach(container => {
+            observer.observe(container);  // Comenzamos a observar cada contenedor para detectar cuando esté en vista
+        });
+    </script>
+	
+   <br />
+   <br />
+
+
+
+
+    <div class="filter">
+        <button class="filter-btn">FILTRAR</button>
+    </div>
+
+    <div class="blogs">
+        <div class="blog">
+            <img src="/images/blog1.jpg" alt="Blog 1">
+            <h2>Finca Bombita (Deltebre-Delta del Ebro)</h2>
+        </div>
+        <div class="blog">
+            <img src="/images/blog2.jpg" alt="Blog 2">
+            <h2>A los futuros jefes de planta de una EDAR 2</h2>
+        </div>
+        <div class="blog">
+            <img src="/images/blog3.jpg" alt="Blog 3">
+            <h2>#WaterWorldDay. Lago Di Garda, 49.000 hm3 para ver el efecto del cambio climático en los Alpes</h2>
+        </div>
+    </div>
+
+    
+</div>
+
+
+
