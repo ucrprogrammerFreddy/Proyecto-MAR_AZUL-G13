@@ -1,0 +1,118 @@
+﻿@model AppUsuarios.Models.Usuario
+
+@{
+    ViewData["Title"] = "Create";
+      <!-- Título de la página que se muestra en la vista -->
+}
+
+<h1>Create</h1>  <!-- Título principal de la página -->
+<h4>Usuario</h4>  <!-- Subtítulo, en este caso, indicando que es para crear un usuario -->
+<hr />  <!-- Línea horizontal para separar el encabezado del contenido -->
+
+<div class="container">
+    <!-- Contenedor principal del formulario -->
+    <div class="row">
+        <!-- Fila para distribuir las columnas -->
+        <!-- Columna vacía a la izquierda para centrar el formulario -->
+        <div class="col-sm-4"></div>
+
+        <!-- Columna central donde se coloca el formulario -->
+        <div class="col-sm-4">
+
+            @* Mensaje de error *@
+            @if (TempData["Mensaje"] != null)
+            {
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <!-- Muestra una alerta de advertencia si existe un mensaje de error -->
+                    <strong>Error!</strong> @TempData["Mensaje"]  <!-- Muestra el mensaje de error almacenado en TempData -->
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>  <!-- Botón para cerrar la alerta -->
+                </div>
+            }
+
+            <!-- Formulario para crear un usuario -->
+            <form asp-action="Create">
+                <!-- Envia el formulario a la acción "Create" del controlador -->
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <!-- Muestra los errores de validación al enviar el formulario (solo errores del modelo) -->
+                <!-- Campo para ingresar el nombre -->
+                <div class="form-group">
+                    <label asp-for="Nombre" class="control-label"></label>  <!-- Etiqueta para el campo Nombre -->
+                    <input asp-for="Nombre" class="form-control" />  <!-- Campo de entrada para el nombre del usuario -->
+                    <span asp-validation-for="Nombre" class="text-danger"></span>  <!-- Muestra errores de validación para el campo Nombre -->
+                </div>
+
+                <!-- Campo para ingresar el correo electrónico -->
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>  <!-- Etiqueta para el campo Email -->
+                    <input asp-for="Email" class="form-control" />  <!-- Campo de entrada para el correo electrónico -->
+                    <span asp-validation-for="Email" class="text-danger"></span>  <!-- Muestra errores de validación para el campo Email -->
+                </div>
+
+                <!-- Campo para seleccionar el rol del usuario -->
+                <div class="form-group">
+                    <label asp-for="Rol" class="form-label">Rol</label>  <!-- Etiqueta para el campo Rol -->
+                    <select asp-for="Rol" class="form-control" id="rolSelect" onchange="cargarRoles()">
+                        <!-- Lista desplegable para seleccionar el rol del usuario -->
+                        <option selected="selected" value="Member">Member</option>  <!-- Opción predeterminada "Member" -->
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <option value="Admin">Admin</option>  <!-- Opción para seleccionar "Admin" -->
+                        }
+                    </select>
+                    <span asp-validation-for="Rol" class="text-danger"></span>  <!-- Muestra errores de validación para el campo Rol -->
+                </div>
+
+                <!-- Campo para ingresar la clave (contraseña) -->
+                <div class="form-group">
+                    <label asp-for="Clave" class="control-label"></label>  <!-- Etiqueta para el campo Clave -->
+                    <input asp-for="Clave" class="form-control" />  <!-- Campo de entrada para la clave del usuario -->
+                    <span asp-validation-for="Clave" class="text-danger"></span>  <!-- Muestra errores de validación para el campo Clave -->
+                </div>
+
+                <br><br>  <!-- Espacios adicionales para separar visualmente los campos -->
+                <!-- Botón de envío del formulario -->
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />  <!-- Botón para enviar el formulario -->
+                </div>
+            </form>
+        </div>
+
+        <!-- Columna vacía a la derecha para centrar el formulario -->
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+
+<!-- Enlaces para regresar a la lista de usuarios o al login dependiendo del rol del usuario -->
+<div>
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        <a asp-action="Index">Back to List</a>  <!-- Enlace para regresar a la lista de usuarios -->
+    }
+    else
+    {
+        <a class="btn btn-secondary mt-3" asp-action="Login" asp-controller="Usuarios">Back</a>  <!-- Enlace para regresar al login -->
+    }
+</div>
+
+@section Scripts {
+    @* Lazy Loading para los scripts *@
+    <script defer src="~/js/validaciones.js"></script>  <!-- Se carga el script de validaciones de manera deferida (después de que se carga el HTML) -->
+    <!-- Script para cargar los roles dinámicamente desde el servidor -->
+    <script defer>
+        function cargarRoles() {
+            fetch('/Usuarios/GetRoles')  // Realiza una solicitud HTTP para obtener los roles desde el servidor
+                .then(response => response.json())  // Convierte la respuesta a formato JSON
+                .then(data => {
+                    let select = document.getElementById("rolSelect");  // Obtiene el elemento select de los roles
+                    select.innerHTML = "";  // Limpia las opciones previas
+                    data.forEach(rol => {  // Itera sobre los roles obtenidos
+                        let option = document.createElement("option");  // Crea un nuevo elemento <option>
+                        option.value = rol;  // Asigna el valor del rol a la opción
+                        option.text = rol;  // Asigna el texto visible de la opción
+                        select.appendChild(option);  // Agrega la opción al select
+                    });
+                })
+                .catch(error => console.error("Error cargando roles:", error));  // Maneja los posibles errores
+        }
+    </script>
+}

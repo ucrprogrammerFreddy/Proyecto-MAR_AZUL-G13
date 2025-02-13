@@ -1,0 +1,142 @@
+﻿/* homepage.css */
+
+/* Ajustes globales específicos para la página principal */
+
+/*
+    Home page contiene el cuerpo de la pagina principal 
+
+*/
+body {
+    background-color: #f8f9fa; /* Fondo suave para toda la página */
+    color: #333; /* Texto oscuro */
+    background-image: url("Background.png");
+}
+
+/* Estilos para el contenedor principal de bienvenida */
+.container h1.display-4 {
+    color: #606C38 !important; /* Color azul primario para el título */
+    margin-bottom: 0.5rem;
+}
+
+
+.container p.lead {
+    color: #DDA15E; /* Color de texto secundario */
+    font-weight: bold;
+}
+
+/* Estilos para las tarjetas de opciones */
+.card {
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .card .card-title {
+        color: #00C0F3;
+        text-align: center;
+    }
+
+    .card .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .card .btn-primary {
+        background-color: #535D33;
+        border: none;
+        margin-top: auto;
+        align-self: center;
+        width: 50%;
+        max-width: 200px;
+    }
+
+    .card .btn-success {
+        background-color: gold;
+        border: none;
+        text-align: center;
+    }
+
+
+
+.btn-reclamo:hover {
+    background-color: #A3B19A; /* Un tono ligeramente más oscuro para el hover */
+}
+
+
+
+
+    .btn-calificacion:hover {
+        background-color: #e0a800; /* Un tono más oscuro para el hover */
+    }
+
+.card-text {
+    background-color: #A3B19A;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+/* Estilos de la alerta */
+.alert-info {
+    background-color: #A3B19A;
+    border-color: #bee5eb;
+    color: #535D33;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.carousel-inner {
+    border-radius: 10px;
+   
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover; /* Esto asegura que las imágenes cubran completamente el área sin distorsionarse */
+    height: 400px; /* Ajusta la altura de las imágenes */
+}
+
+.display-4.text-primary {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+<style >
+.video-container {
+    display: flex; /* Usamos Flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 360px; /* Altura para asegurar que el video se vea bien centrado */
+    margin: 20px auto; /* Separación entre videos */
+    max-width: 700px; /* Limitar el ancho máximo */
+    text-align: center; /* Centra el texto (si lo hay) */
+}
+
+.thumbnail {
+    width: 100%; /* Hacer que la miniatura ocupe todo el contenedor antes de que se cargue el video */
+    cursor: pointer; /* Cambiar el cursor a un puntero para indicar que es interactivo */
+    max-width: 640px; /* Limitar el tamaño de la miniatura */
+}
+
+video {
+    max-width: 100%; /* El video se ajusta al tamaño del contenedor */
+    height: auto; /* Mantener la relación de aspecto del video */
+}
+
+</style >
