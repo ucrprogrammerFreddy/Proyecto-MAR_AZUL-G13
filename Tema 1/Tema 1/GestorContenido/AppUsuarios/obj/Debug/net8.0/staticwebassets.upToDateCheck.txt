@@ -1,6 +1,7 @@
 wwwroot\css\Home.css
 wwwroot\css\Logo.png
 wwwroot\css\PaginaPrincipal.css
+wwwroot\css\seccionesEstilos.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\img\index.jpg
@@ -65,3 +66,4 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\uploads\index.jpg

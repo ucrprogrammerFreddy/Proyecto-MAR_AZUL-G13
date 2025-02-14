@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2t6DMFsRq0HARjqTrfpSf1/uJTLUPiuN3gyMV415NXA=",
+  "Hash": "IX/rfoh2qxVDYWS+mGRBVnyFPcUGQryD6XvvkfTKJu0=",
   "Source": "AppUsuarios",
   "BasePath": "_content/AppUsuarios",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AppUsuarios\\wwwroot",
       "Source": "AppUsuarios",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppUsuarios.styles.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppUsuarios.styles.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "AppUsuarios#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "s3xHbgP8B9TH0U1os1bSyJksBoYUO20MjC1J6HltJrc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppUsuarios.styles.css"
+      "OriginalItemSpec": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppUsuarios.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppUsuarios.bundle.scp.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppUsuarios.bundle.scp.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "AppUsuarios#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "s3xHbgP8B9TH0U1os1bSyJksBoYUO20MjC1J6HltJrc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppUsuarios.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppUsuarios.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Home.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Home.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "css/Home#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Home.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Logo.png",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Logo.png",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "css/Logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Logo.png"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "css/PaginaPrincipal#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,31 @@
       "OriginalItemSpec": "wwwroot\\css\\PaginaPrincipal.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\seccionesEstilos.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "BasePath": "_content/AppUsuarios",
+      "RelativePath": "css/seccionesEstilos#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dyjx89twm7",
+      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\seccionesEstilos.css"
+    },
+    {
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
+      "SourceId": "AppUsuarios",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\favicon.ico",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -164,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index.jpg",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index.jpg",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "img/index#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index1.jpg",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index1.jpg",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "img/index1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index3.jpg",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index3.jpg",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "img/index3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\video1.mp4",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\video1.mp4",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "img/video1#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
@@ -248,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\img\\video1.mp4"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\js\\site.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -269,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -290,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -311,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -353,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -374,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -395,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -437,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -458,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -479,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -521,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -542,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -563,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -584,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -605,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -626,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -647,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -668,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -689,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -710,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -731,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -752,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -773,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -794,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -815,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -836,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -878,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -899,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -920,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -941,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -962,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -983,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1004,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1025,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1046,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1067,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1109,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1130,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1151,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1172,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1193,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1214,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1256,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1277,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1298,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1319,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1340,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1361,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1382,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1403,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1424,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1445,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AppUsuarios",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
       "BasePath": "_content/AppUsuarios",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1464,12 +1485,33 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\uploads\\index.jpg",
+      "SourceId": "AppUsuarios",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\",
+      "BasePath": "_content/AppUsuarios",
+      "RelativePath": "uploads/index#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1omdiabjch",
+      "Integrity": "/yFas1IQRdrM3SHFoIfWg3AeNdFMR2oZ/xmdtXXZsKw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\index.jpg"
     }
   ],
   "Endpoints": [
     {
       "Route": "AppUsuarios.5i0vny3ktd.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppUsuarios.bundle.scp.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppUsuarios.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1490,7 +1532,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 16:26:50 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1514,7 +1556,7 @@
     },
     {
       "Route": "AppUsuarios.5i0vny3ktd.styles.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppUsuarios.styles.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppUsuarios.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1535,7 +1577,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 16:26:50 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1559,7 +1601,7 @@
     },
     {
       "Route": "AppUsuarios.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppUsuarios.bundle.scp.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppUsuarios.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1580,7 +1622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 16:26:50 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1596,7 +1638,7 @@
     },
     {
       "Route": "AppUsuarios.styles.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppUsuarios.styles.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppUsuarios.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1617,7 +1659,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 16:26:50 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1633,7 +1675,7 @@
     },
     {
       "Route": "css/Home.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Home.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1654,7 +1696,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 16:26:32 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1670,7 +1712,7 @@
     },
     {
       "Route": "css/Home.h7fjxhasci.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Home.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1691,7 +1733,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 16:26:32 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1715,7 +1757,7 @@
     },
     {
       "Route": "css/Logo.3qszwu942v.png",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Logo.png",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1736,7 +1778,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 22:43:42 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1760,7 +1802,7 @@
     },
     {
       "Route": "css/Logo.png",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Logo.png",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1781,7 +1823,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 22:43:42 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1797,7 +1839,7 @@
     },
     {
       "Route": "css/PaginaPrincipal.3lb81c19f3.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1818,7 +1860,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 22:57:42 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1842,7 +1884,7 @@
     },
     {
       "Route": "css/PaginaPrincipal.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1863,7 +1905,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 22:57:42 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1878,8 +1920,90 @@
       ]
     },
     {
+      "Route": "css/seccionesEstilos.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\seccionesEstilos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 17:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/seccionesEstilos.dyjx89twm7.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\seccionesEstilos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 17:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/seccionesEstilos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
       "Route": "css/site.15de8jj5vp.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1900,7 +2024,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 22:57:42 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1924,7 +2048,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1945,7 +2069,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 22:57:42 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1961,7 +2085,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1982,7 +2106,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2006,7 +2130,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2027,7 +2151,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2043,7 +2167,7 @@
     },
     {
       "Route": "img/index.1omdiabjch.jpg",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index.jpg",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2064,7 +2188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 19:56:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2088,7 +2212,7 @@
     },
     {
       "Route": "img/index.jpg",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index.jpg",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2109,7 +2233,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 19:56:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2125,7 +2249,7 @@
     },
     {
       "Route": "img/index1.45lttctpvd.jpg",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index1.jpg",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2146,7 +2270,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 19:57:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2170,7 +2294,7 @@
     },
     {
       "Route": "img/index1.jpg",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index1.jpg",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2191,7 +2315,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 19:57:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2207,7 +2331,7 @@
     },
     {
       "Route": "img/index3.jpg",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index3.jpg",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2228,7 +2352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 19:58:52 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2244,7 +2368,7 @@
     },
     {
       "Route": "img/index3.mlnsqs81yz.jpg",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index3.jpg",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\index3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2265,7 +2389,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 19:58:52 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2289,7 +2413,7 @@
     },
     {
       "Route": "img/video1.mp4",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\video1.mp4",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\video1.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2310,7 +2434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 02:27:38 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2326,7 +2450,7 @@
     },
     {
       "Route": "img/video1.tziundycdr.mp4",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\video1.mp4",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\img\\video1.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2347,7 +2471,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 02:27:38 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2371,7 +2495,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2392,7 +2516,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2408,7 +2532,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2429,7 +2553,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2453,7 +2577,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2474,7 +2598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2490,7 +2614,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2511,7 +2635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2535,7 +2659,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2556,7 +2680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2572,7 +2696,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2593,7 +2717,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2617,7 +2741,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2638,7 +2762,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2654,7 +2778,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2675,7 +2799,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2699,7 +2823,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2720,7 +2844,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2736,7 +2860,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2757,7 +2881,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2781,7 +2905,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2802,7 +2926,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2818,7 +2942,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2839,7 +2963,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2863,7 +2987,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2884,7 +3008,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2900,7 +3024,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2921,7 +3045,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2945,7 +3069,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2966,7 +3090,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2982,7 +3106,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3003,7 +3127,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3027,7 +3151,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3048,7 +3172,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3064,7 +3188,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3085,7 +3209,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3109,7 +3233,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3130,7 +3254,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3154,7 +3278,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3175,7 +3299,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3191,7 +3315,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3212,7 +3336,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3228,7 +3352,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3249,7 +3373,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3273,7 +3397,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3294,7 +3418,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3310,7 +3434,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3331,7 +3455,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3355,7 +3479,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3376,7 +3500,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3392,7 +3516,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3413,7 +3537,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3437,7 +3561,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3458,7 +3582,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3474,7 +3598,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3495,7 +3619,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3519,7 +3643,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3540,7 +3664,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3556,7 +3680,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3577,7 +3701,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3593,7 +3717,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3614,7 +3738,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3630,7 +3754,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3651,7 +3775,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3675,7 +3799,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3696,7 +3820,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3720,7 +3844,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3741,7 +3865,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3765,7 +3889,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3786,7 +3910,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3810,7 +3934,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3831,7 +3955,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3847,7 +3971,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3868,7 +3992,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3892,7 +4016,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3913,7 +4037,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3929,7 +4053,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3950,7 +4074,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3966,7 +4090,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3987,7 +4111,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4003,7 +4127,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4024,7 +4148,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4048,7 +4172,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4069,7 +4193,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4093,7 +4217,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4114,7 +4238,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4138,7 +4262,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4159,7 +4283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4175,7 +4299,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4196,7 +4320,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4220,7 +4344,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4241,7 +4365,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4257,7 +4381,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4278,7 +4402,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4294,7 +4418,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4315,7 +4439,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4331,7 +4455,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4352,7 +4476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4376,7 +4500,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4397,7 +4521,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4421,7 +4545,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4442,7 +4566,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4458,7 +4582,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4479,7 +4603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4503,7 +4627,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4524,7 +4648,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4540,7 +4664,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4561,7 +4685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4585,7 +4709,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4606,7 +4730,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4622,7 +4746,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4643,7 +4767,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4659,7 +4783,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4680,7 +4804,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4704,7 +4828,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4725,7 +4849,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4749,7 +4873,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4770,7 +4894,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4786,7 +4910,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4807,7 +4931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4831,7 +4955,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4852,7 +4976,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4868,7 +4992,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4889,7 +5013,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4905,7 +5029,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4926,7 +5050,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4950,7 +5074,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4971,7 +5095,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4987,7 +5111,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5008,7 +5132,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5032,7 +5156,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5053,7 +5177,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5077,7 +5201,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5098,7 +5222,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5114,7 +5238,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5135,7 +5259,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5159,7 +5283,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5180,7 +5304,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5196,7 +5320,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5217,7 +5341,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:56 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5241,7 +5365,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5262,7 +5386,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5286,7 +5410,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5307,7 +5431,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5323,7 +5447,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5344,7 +5468,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5368,7 +5492,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5389,7 +5513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5405,7 +5529,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5426,7 +5550,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5442,7 +5566,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5463,7 +5587,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5487,7 +5611,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5508,7 +5632,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5524,7 +5648,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5545,7 +5669,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5569,7 +5693,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5590,7 +5714,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5606,7 +5730,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5627,7 +5751,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5643,7 +5767,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5664,7 +5788,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5688,7 +5812,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5709,7 +5833,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5733,7 +5857,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5754,7 +5878,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5770,7 +5894,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5791,7 +5915,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5815,7 +5939,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5836,7 +5960,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5852,7 +5976,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5873,7 +5997,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5889,7 +6013,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5910,7 +6034,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5926,7 +6050,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5947,7 +6071,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5971,7 +6095,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5992,7 +6116,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6016,7 +6140,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6037,7 +6161,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6061,7 +6185,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6082,7 +6206,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6098,7 +6222,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6119,7 +6243,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:55 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6143,7 +6267,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6164,7 +6288,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6188,7 +6312,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6209,7 +6333,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6225,7 +6349,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6246,7 +6370,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6270,7 +6394,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6291,7 +6415,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6315,7 +6439,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6336,7 +6460,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6352,7 +6476,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6373,7 +6497,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6389,7 +6513,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6410,7 +6534,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6434,7 +6558,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6455,7 +6579,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6471,7 +6595,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6492,7 +6616,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6516,7 +6640,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6537,7 +6661,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6553,7 +6677,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6574,7 +6698,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6598,7 +6722,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6619,7 +6743,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6635,7 +6759,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6656,7 +6780,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6672,7 +6796,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6693,7 +6817,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6717,7 +6841,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6738,7 +6862,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6754,7 +6878,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6775,7 +6899,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6799,7 +6923,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6820,7 +6944,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6836,7 +6960,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6857,7 +6981,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:57 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6881,7 +7005,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6902,7 +7026,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6926,7 +7050,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6947,7 +7071,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6963,7 +7087,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6984,7 +7108,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7008,7 +7132,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7029,7 +7153,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7045,7 +7169,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7066,7 +7190,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7090,7 +7214,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7111,7 +7235,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 21:17:58 GMT"
+          "Value": "Thu, 13 Feb 2025 17:03:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7122,6 +7246,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/index.1omdiabjch.jpg",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\uploads\\index.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/yFas1IQRdrM3SHFoIfWg3AeNdFMR2oZ/xmdtXXZsKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 19:15:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1omdiabjch"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/index.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/yFas1IQRdrM3SHFoIfWg3AeNdFMR2oZ/xmdtXXZsKw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/index.jpg",
+      "AssetFile": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\uploads\\index.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/yFas1IQRdrM3SHFoIfWg3AeNdFMR2oZ/xmdtXXZsKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 19:15:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/yFas1IQRdrM3SHFoIfWg3AeNdFMR2oZ/xmdtXXZsKw="
         }
       ]
     }

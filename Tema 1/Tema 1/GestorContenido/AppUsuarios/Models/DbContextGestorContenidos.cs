@@ -30,21 +30,12 @@ namespace AppUsuarios.Models
         {
 
 
-
-            // Definir la clave primaria compuesta para ArticuloEtiqueta
+            // relacion Articulo autor usuario
             modelBuilder.Entity<ArticuloAutor>()
-                .HasKey(ae => new { ae.IdArticulo, ae.IdUsuario });
+                     .HasOne(dp => dp.Usuario)
+                     .WithMany(p => p.ArticuloAutor)
+                     .HasForeignKey(dp => dp.IdUsuario);
 
-            // Relación entre ArticulosAutor y Articulo
-            modelBuilder.Entity<ArticuloAutor>()
-                .HasOne(aa => aa.Articulo)
-                .WithMany(a => a.ArticuloAutor)
-                .HasForeignKey(ae => ae.IdArticulo);
-
-            modelBuilder.Entity<ArticuloAutor>()
-                .HasOne(au => au.Usuario)
-                .WithMany(a => a.ArticuloAutor)
-                .HasForeignKey(ae => ae.IdUsuario);
 
             // Relacion Articulo Autor - Articulos
 
@@ -54,7 +45,11 @@ namespace AppUsuarios.Models
                 .WithMany(aa => aa.ArticuloAutor)
                 .HasForeignKey(dp => dp.IdArticulo);
 
-          
+            // Relación Etiqueta Artículo
+            modelBuilder.Entity<Etiquetas>()
+                .HasOne(e => e.Articulo)
+                .WithMany(a => a.Etiqueta)
+                .HasForeignKey(e => e.IdArticulo);
                
             // Categoria -articulo
             modelBuilder.Entity<Articulos>()
@@ -68,26 +63,10 @@ namespace AppUsuarios.Models
               .WithMany(s => s.Categoria)
               .HasForeignKey(a => a.IdSeccion);
 
-            // Definir la clave primaria compuesta para ArticuloEtiqueta
-            modelBuilder.Entity<ArticuloEtiqueta>()
-                .HasKey(ae => new { ae.IdArticulo, ae.IdEtiqueta });
-
-            // Relación entre Articulos y Etiquetas (ArticuloEtiqueta)
-
-            modelBuilder.Entity<ArticuloEtiqueta>()
-            .HasOne(ae => ae.Articulo)
-            .WithMany(a => a.ArticuloEtiqueta)
-            .HasForeignKey(ae=> ae.IdArticulo)
-            .OnDelete(DeleteBehavior.NoAction); // Prevenir eliminación en cascada
-
-            modelBuilder.Entity<ArticuloEtiqueta>()
-                .HasOne(ae => ae.Etiqueta)
-                .WithMany(e => e.ArticuloEtiqueta)
-                .HasForeignKey(ae =>ae.IdEtiqueta)
-                .OnDelete(DeleteBehavior.NoAction); // Prevenir eliminación en cascada
 
 
-            
+
+
 
             // Agregamos datos iniciales a la tabla Usuarios para que existan al momento de crear la base de datos.
             // Esto es útil para pruebas o configuraciones iniciales.

@@ -244,6 +244,245 @@
         }
       }
     },
+    "/api/Secciones/GetSecciones": {
+      "get": {
+        "tags": [
+          "Secciones"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Secciones"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Secciones"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Secciones"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Secciones/GetSeccionForId/{idSeccion}": {
+      "get": {
+        "tags": [
+          "Secciones"
+        ],
+        "parameters": [
+          {
+            "name": "idSeccion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Secciones"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Secciones"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Secciones"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Secciones/GetSeccionForName/{nombre}": {
+      "get": {
+        "tags": [
+          "Secciones"
+        ],
+        "parameters": [
+          {
+            "name": "nombre",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Secciones"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Secciones"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Secciones"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Secciones/AddSeccion": {
+      "post": {
+        "tags": [
+          "Secciones"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Secciones"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Secciones"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Secciones"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Secciones"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Secciones"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Secciones"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Secciones/UpdateSeccion/{idSeccion}": {
+      "put": {
+        "tags": [
+          "Secciones"
+        ],
+        "parameters": [
+          {
+            "name": "idSeccion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Secciones"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Secciones"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Secciones"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Secciones/DeleteSeccion/{idSeccion}": {
+      "delete": {
+        "tags": [
+          "Secciones"
+        ],
+        "parameters": [
+          {
+            "name": "idSeccion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Usuario": {
       "get": {
         "tags": [
@@ -471,6 +710,46 @@
   },
   "components": {
     "schemas": {
+      "Categorias": {
+        "required": [
+          "descripcion",
+          "estado",
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "idCategoria": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "descripcion": {
+            "maxLength": 600,
+            "minLength": 0,
+            "type": "string"
+          },
+          "urlImagen": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "pattern": "[A-Z]",
+            "type": "string"
+          },
+          "idSeccion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "seccion": {
+            "$ref": "#/components/schemas/Secciones"
+          }
+        },
+        "additionalProperties": false
+      },
       "Etiqueta": {
         "required": [
           "estado",
@@ -492,6 +771,49 @@
             "pattern": "[A-Z]",
             "type": "string",
             "format": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Secciones": {
+        "required": [
+          "descripcion",
+          "estado",
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "idSeccion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "string"
+          },
+          "descripcion": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "string"
+          },
+          "imagenURL": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "pattern": "[A-Z]",
+            "type": "string",
+            "format": "string"
+          },
+          "categoria": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Categorias"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

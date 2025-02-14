@@ -23,32 +23,25 @@ namespace AppUsuarios.Migrations
 
             modelBuilder.Entity("AppUsuarios.Models.ArticuloAutor", b =>
                 {
+                    b.Property<int>("IdArticuloAutor")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdArticuloAutor"));
+
                     b.Property<int>("IdArticulo")
                         .HasColumnType("int");
 
                     b.Property<int>("IdUsuario")
                         .HasColumnType("int");
 
-                    b.HasKey("IdArticulo", "IdUsuario");
+                    b.HasKey("IdArticuloAutor");
+
+                    b.HasIndex("IdArticulo");
 
                     b.HasIndex("IdUsuario");
 
                     b.ToTable("ArticuloAutor");
-                });
-
-            modelBuilder.Entity("AppUsuarios.Models.ArticuloEtiqueta", b =>
-                {
-                    b.Property<int>("IdArticulo")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdEtiqueta")
-                        .HasColumnType("int");
-
-                    b.HasKey("IdArticulo", "IdEtiqueta");
-
-                    b.HasIndex("IdEtiqueta");
-
-                    b.ToTable("ArticuloEtiqueta");
                 });
 
             modelBuilder.Entity("AppUsuarios.Models.Articulos", b =>
@@ -134,12 +127,17 @@ namespace AppUsuarios.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(1)");
 
+                    b.Property<int>("IdArticulo")
+                        .HasColumnType("int");
+
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
                     b.HasKey("IdEtiqueta");
+
+                    b.HasIndex("IdArticulo");
 
                     b.ToTable("Etiquetas");
                 });
@@ -247,25 +245,6 @@ namespace AppUsuarios.Migrations
                     b.Navigation("Usuario");
                 });
 
-            modelBuilder.Entity("AppUsuarios.Models.ArticuloEtiqueta", b =>
-                {
-                    b.HasOne("AppUsuarios.Models.Articulos", "Articulo")
-                        .WithMany("ArticuloEtiqueta")
-                        .HasForeignKey("IdArticulo")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.HasOne("AppUsuarios.Models.Etiquetas", "Etiqueta")
-                        .WithMany("ArticuloEtiqueta")
-                        .HasForeignKey("IdEtiqueta")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("Articulo");
-
-                    b.Navigation("Etiqueta");
-                });
-
             modelBuilder.Entity("AppUsuarios.Models.Articulos", b =>
                 {
                     b.HasOne("AppUsuarios.Models.Categorias", "Categoria")
@@ -288,21 +267,27 @@ namespace AppUsuarios.Migrations
                     b.Navigation("Seccion");
                 });
 
+            modelBuilder.Entity("AppUsuarios.Models.Etiquetas", b =>
+                {
+                    b.HasOne("AppUsuarios.Models.Articulos", "Articulo")
+                        .WithMany("Etiqueta")
+                        .HasForeignKey("IdArticulo")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Articulo");
+                });
+
             modelBuilder.Entity("AppUsuarios.Models.Articulos", b =>
                 {
                     b.Navigation("ArticuloAutor");
 
-                    b.Navigation("ArticuloEtiqueta");
+                    b.Navigation("Etiqueta");
                 });
 
             modelBuilder.Entity("AppUsuarios.Models.Categorias", b =>
                 {
                     b.Navigation("Articulo");
-                });
-
-            modelBuilder.Entity("AppUsuarios.Models.Etiquetas", b =>
-                {
-                    b.Navigation("ArticuloEtiqueta");
                 });
 
             modelBuilder.Entity("AppUsuarios.Models.Secciones", b =>

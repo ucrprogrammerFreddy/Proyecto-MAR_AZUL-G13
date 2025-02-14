@@ -6,9 +6,9 @@ using AppUsuarios.Models;
 namespace AppUsuarios.Models { 
     public class ArticuloAutor
     {
-        
+        [Key]
        
-    
+        public int IdArticuloAutor { get; set; }
 
     
         public int IdArticulo { get; set; }

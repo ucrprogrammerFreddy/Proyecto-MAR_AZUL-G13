@@ -1,42 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\",
+  "WorkspaceRootPath": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\mar_azul_api\\controllers\\etiquetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\controllers\\seccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:controllers\\seccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\models\\secciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:models\\secciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\controllers\\etiquetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:controllers\\etiquetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\mar_azul_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213201904_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250213201904_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\mar_azul_api\\models\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:models\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213201647_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250213201647_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\mar_azul_api\\models\\dbcontexteditorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213201539_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250213201539_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\models\\dbcontexteditorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:models\\dbcontexteditorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\mar_azul_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\models\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:models\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213192102_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250213192102_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\models\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:models\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\mar_azul_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\mar_azul_api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\mar_azul_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\melvi\\onedrive - universidad de costa rica\\lenguajes\\proyecto\\proyecto v1.3\\proyecti v1.2\\inv\\mar_azul_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\mar_azul_api\\migrations\\20250208215732_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F07027-7240-4A85-8FCB-6F5E3CC68E7A}|Mar_Azul_API.csproj|solutionrelative:migrations\\20250208215732_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,52 +74,221 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 23,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250208215732_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250208215732_Initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250208215732_Initial.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250208215732_Initial.cs",
-              "RelativeToolTip": "Migrations\\20250208215732_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T21:57:32.984Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-08T21:40:45.695Z"
+              "DocumentIndex": 3,
+              "Title": "20250213201904_initial.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213201904_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250213201904_initial.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213201904_initial.cs",
+              "RelativeToolTip": "Migrations\\20250213201904_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T20:19:04.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250213201647_initial.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213201647_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250213201647_initial.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213201647_initial.cs",
+              "RelativeToolTip": "Migrations\\20250213201647_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T20:16:47.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250213201539_initial.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213201539_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250213201539_initial.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213201539_initial.cs",
+              "RelativeToolTip": "Migrations\\20250213201539_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T20:15:39.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:54:25.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SeccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\SeccionesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SeccionesController.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\SeccionesController.cs",
+              "RelativeToolTip": "Controllers\\SeccionesController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAwwH8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:30:42.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EtiquetasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\EtiquetasController.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\EtiquetasController.cs",
               "RelativeDocumentMoniker": "Controllers\\EtiquetasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\EtiquetasController.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\EtiquetasController.cs",
               "RelativeToolTip": "Controllers\\EtiquetasController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAywG8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T05:04:51.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Categorias.cs",
+              "RelativeDocumentMoniker": "Models\\Categorias.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Categorias.cs",
+              "RelativeToolTip": "Models\\Categorias.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:29:26.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Secciones.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Secciones.cs",
+              "RelativeDocumentMoniker": "Models\\Secciones.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Secciones.cs",
+              "RelativeToolTip": "Models\\Secciones.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:28:02.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250213192102_initial.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213192102_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250213192102_initial.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Migrations\\20250213192102_initial.cs",
+              "RelativeToolTip": "Migrations\\20250213192102_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:21:02.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T21:40:45.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,11 +296,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Program.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,11 +308,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Usuario.cs",
               "RelativeToolTip": "Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAABSwBQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,23 +320,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "DbContextEditorial.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\DbContextEditorial.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\DbContextEditorial.cs",
               "RelativeDocumentMoniker": "Models\\DbContextEditorial.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\DbContextEditorial.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\DbContextEditorial.cs",
               "RelativeToolTip": "Models\\DbContextEditorial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T02:15:11.276Z"
+              "WhenOpened": "2025-02-03T02:15:11.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAA8AAAAAAAAAAABSwAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -147,15 +345,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Etiqueta.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Etiqueta.cs",
+              "DocumentMoniker": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Etiqueta.cs",
               "RelativeDocumentMoniker": "Models\\Etiqueta.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Etiqueta.cs",
+              "ToolTip": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Models\\Etiqueta.cs",
               "RelativeToolTip": "Models\\Etiqueta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T04:50:21.759Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

@@ -1,0 +1,127 @@
+﻿@model AppUsuarios.Models.Secciones
+@{
+
+    ViewData["Title"] = "Gestión de Secciones";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/seccionesEstilos.css"> <!-- Archivo CSS personalizado -->
+
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand text-primary fw-bold" href="#">MAR <span class="text-info">AZUL</span></a>
+        </div>
+    </nav>
+
+    <!-- Título -->
+    <div class="text-center mt-3">
+        <h2 class="text-primary fw-bold">Gestión de Secciones</h2>
+    </div>
+
+    <!-- Formulario -->
+    <div class="container mt-4">
+        <div class="card shadow-lg p-4 rounded-4">
+            <h4 class="mb-4">Formulario de Sección</h4>
+            <form asp-controller="Secciones" asp-action="Create" method="post" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+
+                <!-- Campo oculto para el ID -->
+                <input type="hidden" asp-for="IdSeccion" />
+
+                <div class="mb-3">
+                    <label asp-for="Nombre" class="control-label"></label>
+                    <input asp-for="Nombre" class="form-control" required />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Descripcion" class="control-label"></label>
+                    <textarea asp-for="Descripcion" class="form-control" required></textarea>
+                    <span asp-validation-for="Descripcion" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ImagenURL" class="control-label"></label>
+                    <input type="file" class="form-control" asp-for="ImagenURL" />
+                    <!-- Elimina asp-validation-for para evitar errores con la validación de archivos -->
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Estado" class="form-label">Estado:</label>
+                    <select asp-for="Estado" class="form-select" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="A">Activo</option>
+                        <option value="Z">Inactivo</option>
+                    </select>
+                    <span asp-validation-for="Estado" class="text-danger"></span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Volver</a>
+                    <button type="submit" class="btn btn-primary">Aceptar</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5 p-4">
+        <div class="container">
+            <div class="row">
+                <!-- Enlaces Rápidos -->
+                <div class="col-md-6">
+                    <h5>Enlaces Rápidos:</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Inicio</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Sección 1</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Sección 2</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Sección 3</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Sección 4</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Sección 5</a></li>
+                    </ul>
+                </div>
+
+                <!-- Información de Contacto -->
+                <div class="col-md-6">
+                    <h5>Información de Contacto:</h5>
+                    <ul class="list-unstyled">
+                        <li>📞 Teléfono: (506) 2511-XXXX</li>
+                        <li>📧 Correo: marazul@gmail.com</li>
+                        <li>📍 Dirección: "Puntarenas Central"</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Redes Sociales -->
+            <div class="text-center mt-3">
+                <a href="#" class="text-white mx-2"><i class="bi bi-instagram fs-3"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-facebook fs-3"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-twitter fs-3"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Agregar Bootstrap Icons si no está incluido -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

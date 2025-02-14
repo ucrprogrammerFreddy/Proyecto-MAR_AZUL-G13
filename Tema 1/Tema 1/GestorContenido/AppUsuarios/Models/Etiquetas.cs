@@ -14,16 +14,13 @@ namespace AppUsuarios.Models
         [DataType(DataType.Text)] // Especifica que es un texto.
         public string Nombre { get; set; }
 
-      
-       
+        public Articulos Articulo { get; set; }
+        public int IdArticulo { get; set; }
         // Estado de la etiqueta, de tipo carácter (char). Obligatorio y debe ser un carácter en mayúscula.
         [Required(ErrorMessage = "El estado es obligatorio.")] // Valida que el campo no esté vacío.
         [RegularExpression("[A-Z]", ErrorMessage = "El estado debe ser un único carácter en mayúscula.")] // Valida el patrón de entrada.
         [DataType(DataType.Text)] // Especifica que es un texto (aunque es un char, puede tratarse como texto).
         public char Estado { get; set; }
-
-        // estable realcion 1:n
-        public ICollection<ArticuloEtiqueta> ArticuloEtiqueta { get; set; }
 
 
     }

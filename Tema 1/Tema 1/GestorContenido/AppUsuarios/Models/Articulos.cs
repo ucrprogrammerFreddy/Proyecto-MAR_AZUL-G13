@@ -31,9 +31,7 @@ namespace AppUsuarios.Models
         public ICollection<ArticuloAutor> ArticuloAutor { get; set; } = new List<ArticuloAutor>();
 
         // Relación con Etiquetas
-         
-
-        public ICollection<ArticuloEtiqueta> ArticuloEtiqueta { get; set; }
+         public ICollection<Etiquetas > Etiqueta { get; set;}
 
 
     }

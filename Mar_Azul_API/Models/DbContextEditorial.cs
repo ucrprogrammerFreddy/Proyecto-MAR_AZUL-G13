@@ -18,6 +18,7 @@ namespace Mar_Azul_API.Models
         public DbSet<Usuario> Usuarios { get; set; }
 
         public DbSet<Etiqueta> Etiquetas { get; set; }
+        public DbSet<Secciones> Secciones { get; set; }
         // Método que se ejecuta al crear el modelo de la base de datos.
         // Se usa para configurar relaciones, restricciones y datos semilla.
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -135,6 +135,141 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "AddSeccion",
+    "RelativePath": "api/Secciones/AddSeccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seccion",
+        "Type": "Mar_Azul_API.Models.Secciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Mar_Azul_API.Models.Secciones",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "DeleteSeccion",
+    "RelativePath": "api/Secciones/DeleteSeccion/{idSeccion}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSeccion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "GetSecciones",
+    "RelativePath": "api/Secciones/GetSecciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Secciones, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "GetSeccionForId",
+    "RelativePath": "api/Secciones/GetSeccionForId/{idSeccion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSeccion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Mar_Azul_API.Models.Secciones",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "GetSeccionForName",
+    "RelativePath": "api/Secciones/GetSeccionForName/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Secciones, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "UpdateSeccion",
+    "RelativePath": "api/Secciones/UpdateSeccion/{idSeccion}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSeccion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "seccion",
+        "Type": "Mar_Azul_API.Models.Secciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mar_Azul_API.Controllers.UsuarioController",
     "Method": "GetUsuario",
     "RelativePath": "api/Usuario",

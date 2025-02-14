@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Mar_Azul_API.csproj": {}
+    "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Mar_Azul_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Mar_Azul_API.csproj": {
+    "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Mar_Azul_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Mar_Azul_API.csproj",
+        "projectUniqueName": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Mar_Azul_API.csproj",
         "projectName": "Mar_Azul_API",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Mar_Azul_API.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Mar_Azul_API\\obj\\",
+        "projectPath": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\Mar_Azul_API.csproj",
+        "packagesPath": "C:\\Users\\melvi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\melvi\\OneDrive - Universidad de Costa Rica\\lenguajes\\Proyecto\\Proyecto V1.3\\Proyecti V1.2\\Inv\\Mar_Azul_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\melvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

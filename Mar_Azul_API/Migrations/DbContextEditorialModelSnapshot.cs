@@ -21,6 +21,45 @@ namespace Mar_Azul_API.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Mar_Azul_API.Models.Categorias", b =>
+                {
+                    b.Property<int>("IdCategoria")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCategoria"));
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasMaxLength(600)
+                        .HasColumnType("nvarchar(600)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<int>("IdSeccion")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("SeccionIdSeccion")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UrlImagen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdCategoria");
+
+                    b.HasIndex("SeccionIdSeccion");
+
+                    b.ToTable("Categorias");
+                });
+
             modelBuilder.Entity("Mar_Azul_API.Models.Etiqueta", b =>
                 {
                     b.Property<int>("IdEtiqueta")
@@ -49,6 +88,36 @@ namespace Mar_Azul_API.Migrations
                             Estado = "A",
                             Nombre = "Etiqueta nueva"
                         });
+                });
+
+            modelBuilder.Entity("Mar_Azul_API.Models.Secciones", b =>
+                {
+                    b.Property<int>("IdSeccion")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdSeccion"));
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<string>("ImagenURL")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("IdSeccion");
+
+                    b.ToTable("Secciones");
                 });
 
             modelBuilder.Entity("Mar_Azul_API.Models.Usuario", b =>
@@ -85,6 +154,22 @@ namespace Mar_Azul_API.Migrations
                     b.HasKey("IdUsuario");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("Mar_Azul_API.Models.Categorias", b =>
+                {
+                    b.HasOne("Mar_Azul_API.Models.Secciones", "Seccion")
+                        .WithMany("Categoria")
+                        .HasForeignKey("SeccionIdSeccion")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Seccion");
+                });
+
+            modelBuilder.Entity("Mar_Azul_API.Models.Secciones", b =>
+                {
+                    b.Navigation("Categoria");
                 });
 #pragma warning restore 612, 618
         }
