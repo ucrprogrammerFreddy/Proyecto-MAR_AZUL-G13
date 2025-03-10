@@ -88,8 +88,6 @@ body {
     text-align: center;
 }
 
-
-
 /* Estilos de la alerta */
 .alert-info {
     background-color: #A3B19A;
@@ -99,44 +97,35 @@ body {
     font-size: 1.1rem;
 }
 
-
+/* Carousel */
 .carousel-inner {
     border-radius: 10px;
-   
     overflow: hidden;
 }
 
 .carousel-item img {
-    object-fit: cover; /* Esto asegura que las imágenes cubran completamente el área sin distorsionarse */
+    object-fit: cover;
     height: 400px; /* Ajusta la altura de las imágenes */
 }
 
-.display-4.text-primary {
-    font-weight: bold;
-    font-size: 2.5rem;
-}
-
-
-<style >
+/* Videos */
 .video-container {
-    display: flex; /* Usamos Flexbox para centrar el contenido */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 360px; /* Altura para asegurar que el video se vea bien centrado */
-    margin: 20px auto; /* Separación entre videos */
-    max-width: 700px; /* Limitar el ancho máximo */
-    text-align: center; /* Centra el texto (si lo hay) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: center;
 }
 
 .thumbnail {
-    width: 100%; /* Hacer que la miniatura ocupe todo el contenedor antes de que se cargue el video */
-    cursor: pointer; /* Cambiar el cursor a un puntero para indicar que es interactivo */
-    max-width: 640px; /* Limitar el tamaño de la miniatura */
+    width: 100%;
+    cursor: pointer;
+    max-width: 640px;
 }
 
 video {
-    max-width: 100%; /* El video se ajusta al tamaño del contenedor */
-    height: auto; /* Mantener la relación de aspecto del video */
+    max-width: 100%;
+    height: auto;
 }
-
-</style >

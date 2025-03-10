@@ -1,0 +1,151 @@
+﻿@using AppUsuarios.DTOS
+@model List<ArticuloDetalleDTO>
+
+@{
+    ViewData["Title"] = "Gestión de Publicaciones";
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header text-center bg-primary text-white">
+            <h2>Gestión de Publicaciones</h2>
+        </div>
+        <div class="card-body">
+            @if (TempData["Mensaje"] != null)
+            {
+                <div class="alert alert-info text-center">@TempData["Mensaje"]</div>
+            }
+
+            <!-- Barra de búsqueda y botones -->
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="input-group w-50">
+                    <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    <input type="text" class="form-control" id="searchBox" placeholder="Buscar publicación" onkeyup="filtrarArticulos()">
+                </div>
+
+                <div class="btn-group">
+                    <a href="@Url.Action("Create", "Articulos")" class="btn btn-primary">
+                        <i class="fas fa-plus"></i> Crear
+                    </a>
+                </div>
+            </div>
+
+            <div class="row" id="articulosContainer">
+                @foreach (var articulo in Model)
+                {
+                    <div class="col-lg-12 mb-4 articulo-item" data-nombre="@articulo.Nombre.ToLower()">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="row">
+                                    <!-- Imagen del Artículo -->
+                                    <div class="col-md-4 text-center">
+                                        <img src="@articulo.UrlImagen" class="img-fluid img-thumbnail" style="max-width: 100%; height: auto;">
+                                    </div>
+
+                                    <!-- Información del Artículo -->
+                                    <div class="col-md-8">
+                                        <div class="d-flex justify-content-between">
+                                            <h4><strong>Título:</strong> @articulo.Nombre</h4>
+                                            <div class="text-muted">Id: @articulo.IdArticulo</div>
+                                        </div>
+
+                                        <p><strong>Fecha de publicación:</strong> @articulo.FechaPublicacion.ToString("dd MMMM yyyy")</p>
+                                        <p><strong>Autor:</strong> @articulo.Autor</p>
+                                        <p><strong>Descripción:</strong> @articulo.Descripcion</p>
+                                        <p><strong>Categoría asociada:</strong> @articulo.Categoria</p>
+
+                                        <!-- Etiquetas -->
+                                        <div class="mt-2">
+                                            <strong>Etiquetas asociadas:</strong>
+                                            <div class="etiquetas-container">
+                                                @if (articulo.Etiquetas.Any())
+                                                {
+                                                    @foreach (var etiqueta in articulo.Etiquetas)
+                                                    {
+                                                        <span class="badge bg-secondary me-1">@etiqueta.Nombre</span>
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-muted">Sin etiquetas</span>
+                                                }
+                                            </div>
+                                        </div>
+
+                                        <!-- Botones de acciones -->
+                                        <div class="mt-3">
+
+
+                                            <a href="@Url.Action("Edit", "Articulos", new { id = articulo.IdArticulo })" class="btn btn-warning">
+                                                <i class="fas fa-edit"></i> Edit
+                                            </a>
+
+
+                                            <!--  <a href="Url.Action("Editar", "Articulos", new { id = articulo.IdArticulo })" class="btn btn-warning">
+                                                  <i class="fas fa-edit"></i> Editar
+                                                </a>  -->
+
+                                            <form asp-action="EliminarArticulo" method="post" class="d-inline" onsubmit="return confirmarEliminacion(this);">
+                                                <input type="hidden" name="id" value="@articulo.IdArticulo" />
+                                                <button type="submit" class="btn btn-danger">
+                                                    <i class="fas fa-trash-alt"></i> Eliminar
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div> <!-- Fin de col-md-8 -->
+                                </div> <!-- Fin de row -->
+                            </div> <!-- Fin de card-body -->
+                        </div> <!-- Fin de card -->
+                    </div> <!-- Fin de col-lg-12 -->
+                }
+            </div> <!-- Fin de row -->
+        </div> <!-- Fin de card-body -->
+    </div> <!-- Fin de card -->
+</div> <!-- Fin de container -->
+
+<style>
+    .etiquetas-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .card {
+        border-radius: 10px;
+        transition: transform 0.2s;
+    }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+    .btn i {
+        margin-right: 5px;
+    }
+</style>
+@section Scripts{
+
+    <script>
+        function filtrarArticulos() {
+            let input = document.getElementById("searchBox").value.toLowerCase();
+            let articulos = document.querySelectorAll(".articulo-item");
+
+            articulos.forEach(articulo => {
+                let nombre = articulo.getAttribute("data-nombre");
+                if (nombre.includes(input)) {
+                    articulo.style.display = "block";
+                } else {
+                    articulo.style.display = "none";
+                }
+            });
+        }
+
+        function confirmarEliminacion(form) {
+            if (confirm("¿Estás seguro de que deseas eliminar este artículo?")) {
+                return true; // Si el usuario confirma, se envía el formulario
+            }
+            return false; // Si cancela, no se envía
+        }
+    </script>
+
+}

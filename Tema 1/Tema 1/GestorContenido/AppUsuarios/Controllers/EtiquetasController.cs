@@ -23,7 +23,7 @@ namespace AppUsuarios.Controllers
         {
             // La clase Conexion gestiona la configuración y retorna una instancia de HttpClient.
             _httpClient = new Conexion().Iniciar();
-            _cache = cache; 
+            _cache = cache;
         }
 
         /// <summary>
@@ -36,37 +36,37 @@ namespace AppUsuarios.Controllers
             {
 
                 if (!_cache.TryGetValue("EtiquetasCache", out List<Etiquetas> etiquetas))
-                { 
-                
-                        // Se realiza una petición GET al API para obtener todas las etiquetas.
-                        HttpResponseMessage response = await _httpClient.GetAsync("api/Etiquetas/GetEtiquetas");
+                {
 
-                        // Se comprueba si la respuesta del API fue exitosa (código HTTP 200).
-                        if (response.IsSuccessStatusCode)
-                        {
-                            // Se lee el contenido de la respuesta (JSON) como cadena.
-                            string json = await response.Content.ReadAsStringAsync();
-                           
+                    // Se realiza una petición GET al API para obtener todas las etiquetas.
+                    HttpResponseMessage response = await _httpClient.GetAsync("api/Etiquetas/GetArticulos");
 
-                            // Se deserializa el JSON en una lista de objetos Etiqueta.
-                            etiquetas = JsonConvert.DeserializeObject<List<Etiquetas>>(json);
+                    // Se comprueba si la respuesta del API fue exitosa (código HTTP 200).
+                    if (response.IsSuccessStatusCode)
+                    {
+                        // Se lee el contenido de la respuesta (JSON) como cadena.
+                        string json = await response.Content.ReadAsStringAsync();
 
-                            // Se pasa la lista de etiquetas a la vista para ser mostrada.
-                                _cache.Set("EtiquetasCache", etiquetas, TimeSpan.FromMinutes(5));
-                            return View(etiquetas);
-                        
-                        }
-                        else
-                        {
 
-                            // Si el API devuelve un error, se almacena el mensaje en TempData.
-                            TempData["Mensaje"] = $"Error al obtener etiquetas: {response.ReasonPhrase}";
-                           etiquetas = new List<Etiquetas>();
-                        }
+                        // Se deserializa el JSON en una lista de objetos Etiqueta.
+                        etiquetas = JsonConvert.DeserializeObject<List<Etiquetas>>(json);
+
+                        // Se pasa la lista de etiquetas a la vista para ser mostrada.
+                        _cache.Set("EtiquetasCache", etiquetas, TimeSpan.FromMinutes(5));
+                        return View(etiquetas);
+
+                    }
+                    else
+                    {
+
+                        // Si el API devuelve un error, se almacena el mensaje en TempData.
+                        TempData["Mensaje"] = $"Error al obtener etiquetas: {response.ReasonPhrase}";
+                        etiquetas = new List<Etiquetas>();
+                    }
 
                 }
                 //retorna las etiquetas obtenidas (ya sea desde caché o API
-                 return View(etiquetas);
+                return View(etiquetas);
             }
             catch (Exception ex)
             {
@@ -166,14 +166,19 @@ namespace AppUsuarios.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Etiquetas etiqueta)
         {
-            // Se verifica que los datos enviados cumplan las validaciones del modelo.
-            if (!ModelState.IsValid)
-                return View(etiqueta);
+            var etiquetaRequest = new
+            {
+                IdEtiqueta = etiqueta.IdEtiqueta,
+                Nombre = etiqueta.Nombre,
+                Estado = etiqueta.Estado
+            };
 
+            // Se verifica que los datos enviados cumplan las validaciones del modelo.
+           // if (!ModelState.IsValid) { return View(etiqueta); }
             try
             {
                 // Se convierte el objeto etiqueta a formato JSON.
-                string json = JsonConvert.SerializeObject(etiqueta);
+                string json = JsonConvert.SerializeObject(etiquetaRequest);
 
                 // Se crea el contenido de la petición con el JSON, indicando el tipo de contenido "application/json".
                 HttpContent content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -219,7 +224,7 @@ namespace AppUsuarios.Controllers
                 HttpResponseMessage response = await _httpClient.GetAsync($"api/Etiquetas/GetEtiquetaForId/{id}");
                 if (response.IsSuccessStatusCode)
                 {
-                 
+
                     string json = await response.Content.ReadAsStringAsync();
                     Etiquetas etiqueta = JsonConvert.DeserializeObject<Etiquetas>(json);
 
@@ -248,14 +253,17 @@ namespace AppUsuarios.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(Etiquetas etiqueta)
         {
-            // Se valida que el modelo cumpla con los requisitos definidos.
-            if (!ModelState.IsValid)
-                return View(etiqueta);
+            var etiquetaRequest = new
+            {
+                IdEtiqueta = etiqueta.IdEtiqueta,
+                Nombre = etiqueta.Nombre,
+                Estado = etiqueta.Estado
+            };
 
             try
             {
                 // Se serializa el objeto actualizado a formato JSON.
-                string json = JsonConvert.SerializeObject(etiqueta);
+                string json = JsonConvert.SerializeObject(etiquetaRequest);
                 if (etiqueta.IdEtiqueta == 0)
                 {
                     TempData["Mensaje"] = "Error: El ID de la etiqueta es inválido no puede ser 0.";
@@ -264,12 +272,13 @@ namespace AppUsuarios.Controllers
 
                 // Se prepara el contenido de la petición PUT.
                 HttpContent content = new StringContent(json, Encoding.UTF8, "application/json");
-                
+
                 // Se envía la petición PUT al API para actualizar la etiqueta.
-                HttpResponseMessage response = await _httpClient.PutAsync($"api/Etiquetas/UpdateEtiqueta/{etiqueta.IdEtiqueta}", content);
+                HttpResponseMessage response = await _httpClient.PutAsync($"api/Etiquetas/UpdateEtiqueta/{etiquetaRequest.IdEtiqueta}", content);
                 if (response.IsSuccessStatusCode)
                 {
                     // Si la actualización fue exitosa, se guarda un mensaje y se redirige a Index.
+                    _cache.Remove("EtiquetasCache");
                     TempData["Mensaje"] = "Etiqueta actualizada correctamente.";
                     return RedirectToAction("Index");
                 }
@@ -277,7 +286,7 @@ namespace AppUsuarios.Controllers
                 {
                     TempData["Mensaje"] = $"Error al actualizar etiqueta: {response.ReasonPhrase}";
                 }
-                
+
             }
             catch (Exception ex)
             {
@@ -302,7 +311,7 @@ namespace AppUsuarios.Controllers
                 HttpResponseMessage response = await _httpClient.GetAsync($"api/Etiquetas/GetEtiquetaForId/{id}");
                 if (response.IsSuccessStatusCode)
                 {
-                   
+
                     string json = await response.Content.ReadAsStringAsync();
                     Etiquetas etiqueta = JsonConvert.DeserializeObject<Etiquetas>(json);
 

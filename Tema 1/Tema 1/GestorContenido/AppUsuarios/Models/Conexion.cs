@@ -6,7 +6,7 @@
         {
             var client = new HttpClient();
 
-            client.BaseAddress = new Uri("https://localhost:5001");
+            client.BaseAddress = new Uri("http://marazulapi.somee.com/");
 
             return client;
         }

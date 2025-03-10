@@ -1,5 +1,319 @@
 [
   {
+    "ContainingType": "Mar_Azul_API.Controllers.ArticulosController",
+    "Method": "CrearArticulo",
+    "RelativePath": "api/Articulos/CrearArticulo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Mar_Azul_API.Models.ArticuloDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.ArticulosController",
+    "Method": "DeleteArticulo",
+    "RelativePath": "api/Articulos/DeleteArticulo/{idArticulo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idArticulo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.ArticulosController",
+    "Method": "GetArticuloForId",
+    "RelativePath": "api/Articulos/GetArticuloForId/{idArticulo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idArticulo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Articulos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.ArticulosController",
+    "Method": "GetArticuloRelacionado",
+    "RelativePath": "api/Articulos/GetArticuloRelacionado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Articulos, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.ArticulosController",
+    "Method": "GetAutores",
+    "RelativePath": "api/Articulos/GetAutores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Usuario, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.ArticulosController",
+    "Method": "GetAutorizadores",
+    "RelativePath": "api/Articulos/GetAutorizadores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Usuario, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.ArticulosController",
+    "Method": "GetCategorias",
+    "RelativePath": "api/Articulos/GetCategorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Categorias, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.ArticulosController",
+    "Method": "GetEtiquetas",
+    "RelativePath": "api/Articulos/GetEtiquetas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Etiqueta, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.ArticulosController",
+    "Method": "UpdateArticulo",
+    "RelativePath": "api/Articulos/UpdateArticulo/{idArticulo}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idArticulo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "articulos",
+        "Type": "Articulos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.CategoriasController",
+    "Method": "AddCategoria",
+    "RelativePath": "api/Categorias/AddCategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "Mar_Azul_API.Models.Categorias",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Mar_Azul_API.Models.Categorias",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.CategoriasController",
+    "Method": "DeleteCategoria",
+    "RelativePath": "api/Categorias/DeleteCategoria/{idCategoria}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.CategoriasController",
+    "Method": "GetCategoriaForId",
+    "RelativePath": "api/Categorias/GetCategoriaForId/{idCategoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Mar_Azul_API.Models.Categorias",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.CategoriasController",
+    "Method": "GetCategoriaForName",
+    "RelativePath": "api/Categorias/GetCategoriaForName/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Categorias, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.CategoriasController",
+    "Method": "GetCategorias",
+    "RelativePath": "api/Categorias/GetCategorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Categorias, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.CategoriasController",
+    "Method": "UpdateCategoria",
+    "RelativePath": "api/Categorias/UpdateCategoria/{idCategoria}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoria",
+        "Type": "Mar_Azul_API.Models.Categorias",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mar_Azul_API.Controllers.EtiquetasController",
     "Method": "AddEtiqueta",
     "RelativePath": "api/Etiquetas/AddEtiqueta",
@@ -40,6 +354,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.EtiquetasController",
+    "Method": "GetEtiquetas",
+    "RelativePath": "api/Etiquetas/GetArticulos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Etiqueta, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Mar_Azul_API.Controllers.EtiquetasController",
@@ -95,26 +429,6 @@
   },
   {
     "ContainingType": "Mar_Azul_API.Controllers.EtiquetasController",
-    "Method": "GetEtiquetas",
-    "RelativePath": "api/Etiquetas/GetEtiquetas",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Etiqueta, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Mar_Azul_API.Controllers.EtiquetasController",
     "Method": "UpdateEtiqueta",
     "RelativePath": "api/Etiquetas/UpdateEtiqueta/{idEtiqueta}",
     "HttpMethod": "PUT",
@@ -129,6 +443,141 @@
       {
         "Name": "etiqueta",
         "Type": "Mar_Azul_API.Models.Etiqueta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "AddSeccion",
+    "RelativePath": "api/Secciones/AddSeccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seccion",
+        "Type": "Mar_Azul_API.Models.Secciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Mar_Azul_API.Models.Secciones",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "DeleteSeccion",
+    "RelativePath": "api/Secciones/DeleteSeccion/{idSeccion}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSeccion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "GetSecciones",
+    "RelativePath": "api/Secciones/GetSecciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Secciones, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "GetSeccionForName",
+    "RelativePath": "api/Secciones/GetSeccionForName/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mar_Azul_API.Models.Secciones, Mar_Azul_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "GetSecciosForId",
+    "RelativePath": "api/Secciones/GetSecciosForId/{idSeccion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSeccion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Mar_Azul_API.Models.Secciones",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mar_Azul_API.Controllers.SeccionesController",
+    "Method": "UpdateSeccion",
+    "RelativePath": "api/Secciones/UpdateSeccion/{idSeccion}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSeccion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "seccion",
+        "Type": "Mar_Azul_API.Models.Secciones",
         "IsRequired": true
       }
     ],

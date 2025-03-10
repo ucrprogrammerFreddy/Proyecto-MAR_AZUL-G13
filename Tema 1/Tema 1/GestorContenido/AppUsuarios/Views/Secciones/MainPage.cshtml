@@ -1,0 +1,57 @@
+﻿@model AppUsuarios.Models.Secciones
+
+<header class="py-5 position-relative" style="background-image: url('@Url.Content("/uploads/"+ Model.ImagenURL)'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <!-- Overlay para oscurecer la imagen y resaltar el texto -->
+    <div style="position: absolute; top:0; left:0; right:0; bottom:0; background: rgba(0,0,0,0.5);"></div>
+    <div class="container px-4 px-lg-5 my-5 position-relative">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">@Model.Nombre</h1>
+            <p class="lead fw-normal text-white-50 mb-0">@Model.Descripcion</p>
+        </div>
+    </div>
+</header>
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            @if (Model.Categoria != null && Model.Categoria.Any())
+            {
+                foreach (var cat in Model.Categoria)
+                {
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Imagen de la categoría -->
+                            <img class="card-img-top" src="@(string.IsNullOrEmpty(cat.UrlImagen)
+                                    ? "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                                    : Url.Content( cat.UrlImagen))" alt="@cat.Nombre" />
+                            <!-- Detalles de la categoría -->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">@cat.Nombre</h5>
+                                    @* Opcional: puedes incluir una breve descripción *@
+                                    <p>@cat.Descripcion</p>
+                                </div>
+                            </div>
+                            <!-- Acciones sobre la categoría -->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center">
+                                    <a class="btn btn-outline-dark mt-auto" asp-controller="Categorias" asp-action="MainPage" asp-route-id="@cat.IdCategoria">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col">
+                    <p class="text-center">No hay categorías disponibles.</p>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+
+
+

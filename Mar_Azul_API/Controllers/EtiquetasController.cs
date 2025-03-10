@@ -56,7 +56,7 @@ namespace Mar_Azul_API.Controllers
         /// GET: api/Etiquetas/GetEtiquetas  
         /// Retorna la lista completa de etiquetas.
         /// </summary>
-        [HttpGet("GetEtiquetas")]
+        [HttpGet("GetArticulos")]
         public async Task<ActionResult<IEnumerable<Etiqueta>>> GetEtiquetas()
         {
             var etiquetas = await _context.Etiquetas.ToListAsync();
@@ -91,11 +91,11 @@ namespace Mar_Azul_API.Controllers
 
             // Obtener los datos de la base de datos primero y luego filtrar en memoria
             var etiquetas = new List<Etiqueta>();
-                etiquetas = (await _context.Etiquetas
-                .AsNoTracking() // Optimización: evita tracking en la consulta
-                .ToListAsync()) // Se ejecuta la consulta en la base de datos
-                .Where(e => Normalize(e.Nombre) == normalizedNombre) // Filtra en memoria
-                .ToList(); // Convierte a lista final
+            etiquetas = (await _context.Etiquetas
+            .AsNoTracking() // Optimización: evita tracking en la consulta
+            .ToListAsync()) // Se ejecuta la consulta en la base de datos
+            .Where(e => Normalize(e.Nombre) == normalizedNombre) // Filtra en memoria
+            .ToList(); // Convierte a lista final
 
             // En lugar de `NotFound()`, devuelve una lista vacía para evitar el error en el cliente.
             return Ok(etiquetas);
@@ -126,7 +126,7 @@ namespace Mar_Azul_API.Controllers
                 .Select(e => Normalize(e.Nombre)) // Solo obtener nombres normalizados
                 .ToListAsync()) // Ejecutar en memoria
                 .Contains(normalizedNewName); // Comparar con el nuevo nombre
-            
+
             if (exists)
             {
                 return Conflict(new { message = "No se pueden repetir nombres de etiquetas." });

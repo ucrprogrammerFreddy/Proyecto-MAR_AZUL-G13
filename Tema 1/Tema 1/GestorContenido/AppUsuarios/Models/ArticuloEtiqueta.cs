@@ -1,16 +1,16 @@
-﻿namespace AppUsuarios.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AppUsuarios.Models
 {
     public class ArticuloEtiqueta
     {
 
-
-
-        public Etiquetas Etiqueta { get; set; }
-        public int IdEtiqueta { get; set; }
-
-        public Articulos Articulo { get; set; }
+        [Key]
         public int IdArticulo { get; set; }
+        public Articulos Articulo { get; set; }
 
+        public int IdEtiqueta { get; set; }
+        public Etiquetas Etiqueta { get; set; }
 
     }
 }

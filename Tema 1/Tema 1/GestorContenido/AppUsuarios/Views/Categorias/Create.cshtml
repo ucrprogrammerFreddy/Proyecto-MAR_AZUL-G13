@@ -1,0 +1,89 @@
+﻿@model AppUsuarios.Models.Categorias
+
+@{
+    ViewData["Title"] = "Crear Categoría";
+}
+
+<h1>Crear Categoría</h1>
+
+<h4>Ingrese los datos de la categoría</h4>
+<hr />
+
+<!-- Mostrar errores de ModelState -->
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <strong>Errores en el formulario:</strong>
+        <ul>
+            @foreach (var key in ViewData.ModelState.Keys)
+            {
+                foreach (var error in ViewData.ModelState[key].Errors)
+                {
+                    <li>@key: @error.ErrorMessage</li>
+                }
+            }
+        </ul>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Campo para el ID (no necesario en creación, pero lo incluimos por seguridad) -->
+           
+
+            <!-- Nombre -->
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+
+            <!-- Descripción -->
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <textarea asp-for="Descripcion" class="form-control"></textarea>
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+
+            <!-- Imagen -->
+            <div class="form-group">
+                <label asp-for="ImagenFile" class="control-label">Imagen de la Categoría</label>
+                <input asp-for="ImagenFile" type="file" class="form-control" accept="image/*" />
+                <span asp-validation-for="ImagenFile" class="text-danger"></span>
+            </div>
+
+            <!-- Estado (debe ser un select para evitar problemas con el tipo `char`) -->
+            <div class="form-group">
+                <label asp-for="Estado" class="control-label"></label>
+                <select asp-for="Estado" class="form-control">
+                    <option value="">Seleccione un estado</option>
+                    <option value="A">Activo</option>
+                    <option value="I">Inactivo</option>
+                </select>
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+
+            <!-- Sección (dropdown cargado desde ViewBag) -->
+            <div class="form-group">
+                <label asp-for="IdSeccion" class="control-label"></label>
+                <select asp-for="IdSeccion" class="form-control" asp-items="ViewBag.IdSeccion">
+                    <option value="">Seleccione una Sección</option>
+                </select>
+                <span asp-validation-for="IdSeccion" class="text-danger"></span>
+            </div>
+
+            <!-- Botones -->
+            <div class="form-group mt-3">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

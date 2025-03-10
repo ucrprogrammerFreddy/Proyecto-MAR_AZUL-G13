@@ -1,51 +1,253 @@
-html {
-  font-size: 14px;
+/* Asegurar que el sidebar y el contenido principal se ajusten correctamente */
+#layoutSidenav {
+    display: flex;
+    min-height: 100vh; /* Asegurar que ocupa toda la altura de la pantalla */
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+/* Sidebar (Barra lateral) */
+#layoutSidenav_nav {
+    width: 250px;
+    background-color: #f8f9fa !important; /* Asegurar mismo fondo que la página */
+    color: black !important; /* Texto negro */
+    position: fixed;
+    height: 100vh; /* Ocupar toda la pantalla */
+    top: 56px; /* Ajustar para que no cubra el navbar */
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    overflow-y: auto; /* Agregar scroll si el contenido es largo */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una ligera sombra */
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #005DA4;
+/* Contenedor del menú dentro del sidebar */
+.sb-sidenav-menu {
+    flex-grow: 1; /* Permite que el contenido del menú crezca */
+    overflow-y: auto; /* Asegura el scroll en el área de contenido */
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+/* Footer del sidebar siempre abajo */
+.sb-sidenav-footer {
+    background-color: #f8f9fa !important; /* Igual al sidebar */
+    color: black !important;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto; /* Empuja el footer hacia abajo */
 }
 
-body {
-  margin-bottom: 60px;
+/* Sidebar oculto por defecto */
+#layoutSidenav_nav {
+    transform: translateX(-250px);
 }
 
+/* Mostrar sidebar cuando está activo */
+.sb-sidenav-toggled #layoutSidenav_nav {
+    transform: translateX(0);
+}
 
-/*Este es el color del boton de inicio y de cerrar sesion*/
-.show-contact-btn {
-    background-color: dodgerblue;
+/* Contenido principal */
+#layoutSidenav_content {
+    flex-grow: 1;
+    margin-left: 0; /* Por defecto sin margen */
+    transition: margin-left 0.3s ease-in-out;
+    padding-top: 56px; /* Para que no sea tapado por el navbar */
+}
+
+/* Ajustar contenido cuando el sidebar está visible */
+.sb-sidenav-toggled #layoutSidenav_content {
+    margin-left: 250px;
+}
+
+/* Estilos generales para el sidebar */
+.sb-sidenav .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espacio más reducido entre elementos */
+    padding: 10px;
+    background-color: #f8f9fa; /* Igual al fondo de la página */
+}
+
+/* Ajustar encabezados del sidebar */
+.sb-sidenav-menu-heading {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #6c757d;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+/* Estilo para los enlaces del sidebar */
+.sb-sidenav .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
     color: black;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
 }
 
-    .show-contact-btn:hover {
-        background-color: black;
+/* Espaciado entre el icono y el texto */
+.sb-nav-link-icon {
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+    /* Cambia el color de los iconos */
+    .sb-nav-link-icon i {
+        color: black !important;
     }
 
-    /*Este estilo es para el logo */
-.navbar .navbar-logo {
-    height: 80px;
-    width: 200px;
-    margin-right: 20px;
-    vertical-align: middle;
-    background-color: white;
-    border-radius: 0%;
-    padding: 5px;
-    object-fit: cover;
+/* Cambia el color de los enlaces cuando se pasa el mouse */
+.sb-sidenav .nav-link:hover {
+    background-color: #e9ecef;
+    color: black !important;
+}
+
+
+
+/* Estilos para los enlaces del navbar */
+.navbar .nav-link {
+    color: black !important; /* Mismo color que los del sidebar */
+    font-size: 0.85rem; /* Tamaño de letra igual al sidebar */
+    padding: 8px 12px; /* Mismo espaciado */
+    border-radius: 4px; /* Bordes redondeados iguales */
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+    /* Hover en los enlaces del navbar */
+    .navbar .nav-link:hover {
+        background-color: #e9ecef !important; /* Color de hover igual al sidebar */
+        color: black !important;
+    }
+
+    /* Estilo para los enlaces activos en el navbar */
+    .navbar .nav-link.active {
+        font-weight: bold; /* Resaltar el enlace activo */
+        background-color: #dee2e6; /* Color diferente para el activo */
+    }
+
+    /* Unificar estilos de iconos en el navbar */
+    .navbar .nav-link i {
+        margin-right: 8px; /* Mismo espaciado que los iconos del sidebar */
+        font-size: 1rem;
+        color: black !important;
+        
+    }
+
+
+/* Ocultar el submenú por defecto */
+.submenu {
+    display: none;
+    list-style: none;
+    padding-left: 20px;
+}
+
+    /* Mostrar el submenú cuando esté activo */
+    .submenu.show {
+        display: block;
+    }
+
+/* Estilo para el enlace "Publicaciones" */
+.toggle-submenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+    /* Rotar la flecha cuando el submenú está abierto */
+    .toggle-submenu.active i {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease-in-out;
+    }
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Se coloca sobre otros elementos */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una ligera sombra */
+    background-color: #f8f9fa !important; /* Asegurar mismo fondo que la página */
+}
+
+/*Estilos para la vista de ceate */
+.ql-toolbar {
+    background-color: #007bff !important;
+}
+
+.multi-select {
+    width: 100%;
+    min-height: 100px;
+    overflow-y: auto;
+}
+
+.hidden-checkbox {
+    display: none;
+}
+
+.etiquetas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.etiqueta-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hidden-checkbox:checked + .etiqueta-label {
+    background-color: #2667B9;
+    border-color: #1C8EE3;
+    color: white;
+}
+
+/*Estilos para edit*/
+
+.ql-toolbar {
+    background-color: #007bff !important;
+}
+
+.multi-select {
+    width: 100%;
+    min-height: 100px;
+    overflow-y: auto;
+}
+
+.hidden-checkbox {
+    display: none;
+}
+
+.etiquetas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.etiqueta-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hidden-checkbox:checked + .etiqueta-label {
+    background-color: #2667B9;
+    border-color: #1C8EE3;
+    color: white;
 }

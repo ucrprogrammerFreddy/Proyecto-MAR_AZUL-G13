@@ -1,185 +1,162 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\dbcontextgestorcontenidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\dbcontextgestorcontenidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\etiquetas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\etiquetas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\articuloautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\articuloautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213163630_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppUsuarios\\Migrations\\20250213163630_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\articuloetiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\articuloetiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213162807_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppUsuarios\\Migrations\\20250213162807_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213160853_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppUsuarios\\Migrations\\20250213160853_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213160142_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppUsuarios\\Migrations\\20250213160142_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213153938_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppUsuarios\\Migrations\\20250213153938_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213152503_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppUsuarios\\Migrations\\20250213152503_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213040214_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppUsuarios\\Migrations\\20250213040214_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\etiquetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\etiquetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213035546_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppUsuarios\\Migrations\\20250213035546_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\secciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\secciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\seccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\seccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\etiquetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\etiquetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\wwwroot\\css\\paginaprincipal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\wwwroot\\css\\paginaprincipal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\escritorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\escritorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\autorizadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\autorizadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\articulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\articulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\articuloautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\articuloautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\dtos\\autorizadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\dtos\\autorizadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\dtos\\articulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\dtos\\articulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\dtos\\articulodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\dtos\\articulodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\articulos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\articulos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\articulos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\articulos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\articulos\\gestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\articulos\\gestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\secciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\secciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\secciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\secciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\usuarios\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\secciones\\mainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\secciones\\mainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\categorias\\mainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\categorias\\mainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5932FFB-8EAC-4F64-A71F-BCE137658EEE}|AppUsuario.Test\\AppUsuario.Test.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuario.test\\controller\\homecontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5932FFB-8EAC-4F64-A71F-BCE137658EEE}|AppUsuario.Test\\AppUsuario.Test.csproj|solutionrelative:appusuario.test\\controller\\homecontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\models\\etiquetas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\models\\etiquetas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\etiquetas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\etiquetas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\etiquetas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\etiquetas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5932FFB-8EAC-4F64-A71F-BCE137658EEE}|AppUsuario.Test\\AppUsuario.Test.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuario.test\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5932FFB-8EAC-4F64-A71F-BCE137658EEE}|AppUsuario.Test\\AppUsuario.Test.csproj|solutionrelative:appusuario.test\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5932FFB-8EAC-4F64-A71F-BCE137658EEE}|AppUsuario.Test\\AppUsuario.Test.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuario.test\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5932FFB-8EAC-4F64-A71F-BCE137658EEE}|AppUsuario.Test\\AppUsuario.Test.csproj|solutionrelative:appusuario.test\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Inv\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250208213950_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecti v1.2\\inv\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\migrations\\20250213164121_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\migrations\\20250213164121_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|c:\\users\\usuario\\desktop\\proyecto lenguajes v2.0 (final)\\proyecto lenguajes v2.0 (final)\\tema 1\\tema 1\\gestorcontenido\\appusuarios\\views\\home\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A22ADCE4-45EB-4261-AD18-A29DD2B1F1D4}|AppUsuarios\\AppUsuarios.csproj|solutionrelative:appusuarios\\views\\home\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -189,545 +166,500 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "20250213164121_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213164121_InitialCreate.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Migrations\\20250213164121_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213164121_InitialCreate.cs",
-              "RelativeToolTip": "AppUsuarios\\Migrations\\20250213164121_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:41:21.663Z"
+              "WhenOpened": "2025-02-27T13:39:51.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20250213163630_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213163630_InitialCreate.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Migrations\\20250213163630_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213163630_InitialCreate.cs",
-              "RelativeToolTip": "AppUsuarios\\Migrations\\20250213163630_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EscritorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\EscritorController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\EscritorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\EscritorController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\EscritorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:36:30.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DbContextGestorContenidos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\DbContextGestorContenidos.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Models\\DbContextGestorContenidos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\DbContextGestorContenidos.cs",
-              "RelativeToolTip": "AppUsuarios\\Models\\DbContextGestorContenidos.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA6wEgAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T00:25:30.645Z",
+              "WhenOpened": "2025-02-27T05:04:46.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ArticuloAutor.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\ArticuloAutor.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Models\\ArticuloAutor.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\ArticuloAutor.cs",
-              "RelativeToolTip": "AppUsuarios\\Models\\ArticuloAutor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "EtiquetasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\EtiquetasController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\EtiquetasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\EtiquetasController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\EtiquetasController.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAEwCIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T01:27:37.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Etiquetas.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Etiquetas.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Models\\Etiquetas.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Etiquetas.cs",
-              "RelativeToolTip": "AppUsuarios\\Models\\Etiquetas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T21:46:55.846Z"
+              "WhenOpened": "2025-02-27T05:04:47.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Articulos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Articulos.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Models\\Articulos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Articulos.cs",
-              "RelativeToolTip": "AppUsuarios\\Models\\Articulos.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwCEAAAAJAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwIgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T04:00:20.867Z"
+              "WhenOpened": "2025-02-27T04:08:41.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\SeccionesController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\SeccionesController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\SeccionesController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\SeccionesController.cs",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAqwE8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:38:23.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAAABYBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:57:41.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "AppUsuarios\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAJIBAAAAAAAAAAAAAKgBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T21:46:54.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArticuloEtiqueta.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\ArticuloEtiqueta.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Models\\ArticuloEtiqueta.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\ArticuloEtiqueta.cs",
-              "RelativeToolTip": "AppUsuarios\\Models\\ArticuloEtiqueta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T14:53:09.758Z"
+              "WhenOpened": "2025-02-27T05:05:18.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Usuario.cs",
-              "RelativeToolTip": "AppUsuarios\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
+              "Title": "ArticulosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\ArticulosController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\ArticulosController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\ArticulosController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\ArticulosController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAqwPUBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T23:07:44.207Z"
+              "WhenOpened": "2025-02-27T03:59:18.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "20250213162807_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213162807_InitialCreate.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Migrations\\20250213162807_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213162807_InitialCreate.cs",
-              "RelativeToolTip": "AppUsuarios\\Migrations\\20250213162807_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AutorizadorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\AutorizadorController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\AutorizadorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\AutorizadorController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\AutorizadorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:28:07.725Z"
+              "WhenOpened": "2025-02-27T13:33:55.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "20250213160853_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213160853_InitialCreate.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Migrations\\20250213160853_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213160853_InitialCreate.cs",
-              "RelativeToolTip": "AppUsuarios\\Migrations\\20250213160853_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AppUsuarios\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:08:53.94Z"
+              "WhenOpened": "2025-02-27T08:04:17.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "20250213160142_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213160142_InitialCreate.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Migrations\\20250213160142_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213160142_InitialCreate.cs",
-              "RelativeToolTip": "AppUsuarios\\Migrations\\20250213160142_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:01:42.628Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Articulos\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Articulos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Articulos\\Index.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Articulos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T04:08:16.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "20250213153938_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213153938_InitialCreate.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Migrations\\20250213153938_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213153938_InitialCreate.cs",
-              "RelativeToolTip": "AppUsuarios\\Migrations\\20250213153938_InitialCreate.cs",
+              "Title": "ArticuloAutor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\ArticuloAutor.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Models\\ArticuloAutor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\ArticuloAutor.cs",
+              "RelativeToolTip": "AppUsuarios\\Models\\ArticuloAutor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T15:39:38.966Z"
+              "WhenOpened": "2025-02-27T13:47:31.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "20250213152503_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213152503_InitialCreate.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Migrations\\20250213152503_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213152503_InitialCreate.cs",
-              "RelativeToolTip": "AppUsuarios\\Migrations\\20250213152503_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\DTOS\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\CategoriaDTO.cs",
+              "RelativeToolTip": "AppUsuarios\\DTOS\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T15:25:03.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250213035546_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213035546_Initial.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Migrations\\20250213035546_Initial.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213035546_Initial.cs",
-              "RelativeToolTip": "AppUsuarios\\Migrations\\20250213035546_Initial.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T03:55:46.544Z"
+              "WhenOpened": "2025-02-27T13:47:23.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "20250213040214_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213040214_InitialCreate.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Migrations\\20250213040214_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250213040214_InitialCreate.cs",
-              "RelativeToolTip": "AppUsuarios\\Migrations\\20250213040214_InitialCreate.cs",
+              "Title": "AutorizadorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\AutorizadorDTO.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\DTOS\\AutorizadorDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\AutorizadorDTO.cs",
+              "RelativeToolTip": "AppUsuarios\\DTOS\\AutorizadorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T04:02:15.108Z"
+              "WhenOpened": "2025-02-27T13:47:12.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "EtiquetasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\EtiquetasController.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\EtiquetasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\EtiquetasController.cs",
-              "RelativeToolTip": "AppUsuarios\\Controllers\\EtiquetasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Title": "ArticuloDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\ArticuloDTO.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\DTOS\\ArticuloDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\ArticuloDTO.cs",
+              "RelativeToolTip": "AppUsuarios\\DTOS\\ArticuloDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T23:55:44.915Z"
+              "WhenOpened": "2025-02-27T13:47:02.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Categorias.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Models\\Categorias.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Categorias.cs",
-              "RelativeToolTip": "AppUsuarios\\Models\\Categorias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABcAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ArticuloDetalleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\ArticuloDetalleDTO.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\DTOS\\ArticuloDetalleDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\ArticuloDetalleDTO.cs",
+              "RelativeToolTip": "AppUsuarios\\DTOS\\ArticuloDetalleDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T21:00:23.397Z"
+              "WhenOpened": "2025-02-27T05:44:02.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ArticulosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\ArticulosController.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\ArticulosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\ArticulosController.cs",
-              "RelativeToolTip": "AppUsuarios\\Controllers\\ArticulosController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAIBTwEIBAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T23:23:04.605Z"
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Articulos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Articulos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Articulos\\Edit.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Articulos\\Edit.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAGwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T04:07:46.278Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\DTOS\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\DTOS\\UsuarioDTO.cs",
-              "RelativeToolTip": "AppUsuarios\\DTOS\\UsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T23:49:07.323Z"
+              "DocumentIndex": 17,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AppUsuarios\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AppUsuarios\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAUwPwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-27T12:33:24.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Secciones.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Secciones.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Models\\Secciones.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Secciones.cs",
-              "RelativeToolTip": "AppUsuarios\\Models\\Secciones.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwCgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T00:25:28.967Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T08:01:46.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Articulos\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Articulos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Articulos\\Create.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Articulos\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T08:03:35.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AppUsuarios\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Program.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Program.cs",
+              "RelativeToolTip": "AppUsuarios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T04:38:44.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "AppUsuarios\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "AppUsuarios\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAqwGkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T18:45:12.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\appsettings.json",
-              "RelativeDocumentMoniker": "AppUsuarios\\appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\appsettings.json",
-              "RelativeToolTip": "AppUsuarios\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T00:15:24.11Z"
+              "WhenOpened": "2025-02-27T07:38:33.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "Gestion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Articulos\\Gestion.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Articulos\\Gestion.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Articulos\\Gestion.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Articulos\\Gestion.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T08:05:11.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Conexion.cs",
               "RelativeDocumentMoniker": "AppUsuarios\\Models\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Conexion.cs",
               "RelativeToolTip": "AppUsuarios\\Models\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T04:27:35.454Z"
+              "WhenOpened": "2025-02-27T08:08:06.803Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBTwBEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T00:46:59.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Login.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Login.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-06T04:55:45.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "AppUsuarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AgIAABgAAAAAAAAAAIBTwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-12T22:01:44.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "AppUsuarios\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Properties\\launchSettings.json",
-              "RelativeToolTip": "AppUsuarios\\Properties\\launchSettings.json",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AppUsuarios\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\appsettings.Development.json",
+              "RelativeToolTip": "AppUsuarios\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-12T21:47:43.821Z"
+              "WhenOpened": "2025-02-27T07:38:24.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PaginaPrincipal.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
-              "RelativeDocumentMoniker": "AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
-              "RelativeToolTip": "AppUsuarios\\wwwroot\\css\\PaginaPrincipal.css",
-              "ViewState": "AgIAAFEAAAAAAAAAAIBTwGgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-10T00:49:21.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T15:45:52.51Z"
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\appsettings.json",
+              "RelativeDocumentMoniker": "AppUsuarios\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\appsettings.json",
+              "RelativeToolTip": "AppUsuarios\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-27T07:38:09.081Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBTwBQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T21:22:40.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\_ViewStart.cshtml",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Secciones\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Secciones\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Secciones\\Edit.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Secciones\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T21:45:02.085Z"
+              "WhenOpened": "2025-02-27T06:44:37.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "AppUsuarios\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "AppUsuarios\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABIAAAAAAAAAAIBTwC4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-12T21:46:39.191Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Details.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Details.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA+AAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Categorias\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Categorias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Categorias\\Index.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Categorias\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T16:00:22.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Create.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Create.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T15:58:50.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T21:44:58.408Z"
+              "WhenOpened": "2025-02-27T06:44:21.298Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "Home.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Home.css",
-              "RelativeDocumentMoniker": "AppUsuarios\\wwwroot\\css\\Home.css",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\wwwroot\\css\\Home.css",
-              "RelativeToolTip": "AppUsuarios\\wwwroot\\css\\Home.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-10T00:48:33.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Delete.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Delete.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Login.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Login.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T15:59:50.903Z"
+              "WhenOpened": "2025-02-27T06:39:29.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "HomeControllerTest.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuario.Test\\Controller\\HomeControllerTest.cs",
-              "RelativeDocumentMoniker": "AppUsuario.Test\\Controller\\HomeControllerTest.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuario.Test\\Controller\\HomeControllerTest.cs",
-              "RelativeToolTip": "AppUsuario.Test\\Controller\\HomeControllerTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T06:38:51.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T06:37:41.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\AccessDenied.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T06:37:18.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Secciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Secciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Secciones\\Index.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Secciones\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T06:24:11.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Secciones\\MainPage.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Secciones\\MainPage.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Secciones\\MainPage.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Secciones\\MainPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T06:22:16.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Etiquetas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Etiquetas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Etiquetas\\Edit.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Etiquetas\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T05:35:56.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Etiquetas\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Etiquetas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Etiquetas\\Create.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Etiquetas\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T05:35:24.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Etiquetas.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Etiquetas.cs",
+              "RelativeDocumentMoniker": "AppUsuarios\\Models\\Etiquetas.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Models\\Etiquetas.cs",
+              "RelativeToolTip": "AppUsuarios\\Models\\Etiquetas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T05:44:54.364Z"
+              "WhenOpened": "2025-02-27T05:15:30.249Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T00:55:46.118Z"
+              "WhenOpened": "2025-02-27T04:21:46.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuario.Test\\MSTestSettings.cs",
-              "RelativeDocumentMoniker": "AppUsuario.Test\\MSTestSettings.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuario.Test\\MSTestSettings.cs",
-              "RelativeToolTip": "AppUsuario.Test\\MSTestSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T05:43:26.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Edit.cshtml",
-              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Usuarios\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Usuarios\\Edit.cshtml",
-              "RelativeToolTip": "AppUsuarios\\Views\\Usuarios\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "MainPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Categorias\\MainPage.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Categorias\\MainPage.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Categorias\\MainPage.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Categorias\\MainPage.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T15:59:23.221Z"
+              "WhenOpened": "2025-02-27T04:13:34.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Test1.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuario.Test\\Test1.cs",
-              "RelativeDocumentMoniker": "AppUsuario.Test\\Test1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecti V1.2\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuario.Test\\Test1.cs",
-              "RelativeToolTip": "AppUsuario.Test\\Test1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T05:44:59.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "20250208213950_initial.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Inv\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250208213950_initial.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Inv\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250208213950_initial.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Inv\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250208213950_initial.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Inv\\Inv\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Migrations\\20250208213950_initial.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T21:39:51.12Z"
+              "DocumentIndex": 38,
+              "Title": "Detalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Home\\Detalle.cshtml",
+              "RelativeDocumentMoniker": "AppUsuarios\\Views\\Home\\Detalle.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Lenguajes V2.0 (Final)\\Proyecto Lenguajes V2.0 (Final)\\Tema 1\\Tema 1\\GestorContenido\\AppUsuarios\\Views\\Home\\Detalle.cshtml",
+              "RelativeToolTip": "AppUsuarios\\Views\\Home\\Detalle.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T04:12:56.827Z"
             }
           ]
         }

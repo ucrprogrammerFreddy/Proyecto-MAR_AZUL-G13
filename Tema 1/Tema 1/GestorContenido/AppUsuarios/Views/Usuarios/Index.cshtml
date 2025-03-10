@@ -1,108 +1,157 @@
-﻿@model IEnumerable<AppUsuarios.Models.Usuario>
+﻿@model List<AppUsuarios.Models.Usuario>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Gestión de Usuarios";
+    var currentFilter = ViewData["CurrentFilter"]?.ToString();
 }
 
-<h1>Index</h1>
+<div class="container mt-4">
+    <h2 class="text-center text-white bg-primary py-2 rounded">Gestión de Usuarios</h2>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+    <!-- Barra de búsqueda y opciones -->
+    <div class="row my-3 align-items-center">
 
-@*se pregunta si existe un mensaje de error*@
-@if (TempData["Mensaje"] != null)
-{
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong></strong> @TempData["Mensaje"]
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <!-- 🟢 Búsqueda -->
+        <div class="col-md-6">
+            <form method="get" asp-controller="Usuarios" asp-action="Index" class="input-group">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+                <input type="text" name="search" class="form-control" placeholder="Buscar usuario por nombre" value="@ViewData["CurrentSearch"]" />
+                <button type="submit" class="btn btn-primary">🔍 Buscar</button>
+            </form>
+        </div>
+
+        <!-- 🔵 Opciones -->
+        <div class="col-md-6 d-flex justify-content-end gap-2">
+
+            <!-- Filtro de usuarios -->
+            <form method="get" asp-controller="Usuarios" asp-action="Index" class="d-flex gap-2">
+
+                <!-- Filtro por estado -->
+                <select name="statusFilter" class="form-control">
+                    <option value="">Mostrar Todos</option>
+                    <option value="Activo" selected="@(currentFilter == "Activo")">Solo Activos</option>
+                    <option value="Inactivo" selected="@(currentFilter == "Inactivo")">Solo Inactivos</option>
+                </select>
+
+                <!-- 🔹 Filtro por rol -->
+                <select name="roleFilter" class="form-control">
+                    <option value="">Todos los Roles</option>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Escritor">Escritor</option>
+                    <option value="Autorizador">Autorizador</option>
+                </select>
+
+                <button type="submit" class="btn btn-secondary">🔎 Filtrar</button>
+            </form>
+
+            <!-- Botón Ordenar -->
+            <a class="btn btn-info" asp-controller="Usuarios" asp-action="Index" asp-route-sortOrder="@ViewData["SortOrder"]">Ordenar por ID</a>
+
+            <!-- Botón Crear (Solo visible para Administradores) -->
+            @if (User.IsInRole("Administrador"))
+            {
+                <a class="btn btn-primary" asp-controller="Usuarios" asp-action="Create">Crear Usuario</a>
+            }
+        </div>
+
     </div>
-}
 
+    <!-- Tabla de usuarios -->
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Clave</th>
+                    <th>Rol</th>
+                    <th>Estado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.IdUsuario</td>
+                        <td>@user.Nombre</td>
+                        <td>@user.Email</td>
+                        <th>@user.Clave</th>
+                        <td>@user.Rol</td>
+                        <td>
+                            <button class="btn btn-sm @(user.Estado == "Activo" ? "btn-success" : "btn-warning")"
+                                    data-user-id="@user.IdUsuario"
+                                    onclick="toggleUserStatus(@user.IdUsuario)">
+                                @(user.Estado == "Activo" ? "Activo ✅" : "Inactivo ❌")
+                            </button>
+                        </td>
 
-<table class="table">
-    <thead>
-        <tr>
-            <!-- Encabezados de las columnas, donde se muestran los nombres de los campos en la tabla -->
-            <th>@Html.DisplayNameFor(model => model.IdUsuario)</th>
-            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
-            <th>@Html.DisplayNameFor(model => model.Email)</th>
-            <th>@Html.DisplayNameFor(model => model.Estado)</th>
-            <th>@Html.DisplayNameFor(model => model.Restablecer)</th>
-            <th>Acciones</th>  <!-- Columna para las acciones (Editar, Detalles, Eliminar) -->
-        </tr>
-    </thead>
-    <tbody id="usuariosTabla">
-        @* ✅ La tabla se llenará dinámicamente con Lazy Loading *@
-        <!-- Este tbody es el contenedor donde se insertarán dinámicamente los datos de los usuarios -->
-    </tbody>
-</table>
+                        <td>
+                            <a class="btn btn-info btn-sm" asp-controller="Usuarios" asp-action="Details" asp-route-id="@user.IdUsuario">
+                                🔍
+                            </a>
+
+                            <a class="btn btn-warning btn-sm" asp-controller="Usuarios" asp-action="Edit" asp-route-id="@user.IdUsuario">
+                                ✏️
+                            </a>
+
+                            <!-- Solo el Administrador puede eliminar usuarios -->
+                            @if (User.IsInRole("Administrador"))
+                            {
+                                <form asp-controller="Usuarios" asp-action="Delete" method="post"
+                                      onsubmit="return confirm('¿Estás seguro de eliminar este usuario?');"
+                                      style="display:inline;">
+                                    <input type="hidden" name="id" value="@user.IdUsuario" />
+                                    <button type="submit" class="btn btn-danger btn-sm">🗑</button>
+                                </form>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>
 
 @section Scripts {
-    <script defer>
-        let pagina = 1;  // Página inicial
-        let cantidadPorPagina = 5;  // Mostramos 5 usuarios por vez
-        let usuariosCargados = 0;  // Contador de usuarios cargados
-
-        // Función para cargar los usuarios desde el servidor
-        function cargarUsuarios() {
-            $.ajax({
-                url: "/Usuarios/GetUsuarios",  // Asegúrate de que esta ruta exista en tu controlador
-                type: "GET",
-                data: { pagina: pagina },  // Enviamos el número de página actual
-                success: function (data) {
-                    if (data.length > 0) {
-                        let tabla = document.getElementById("usuariosTabla");  // Referencia de la tabla
-                        // Iteramos sobre los usuarios recibidos y agregamos filas a la tabla
-                        data.forEach(usuario => {
-                            let fila = `
-                                    <tr>
-                                        <td>${usuario.idUsuario}</td>  <!-- Muestra el Id del usuario -->
-                                        <td>${usuario.nombre}</td>     <!-- Muestra el nombre del usuario -->
-                                        <td>${usuario.email}</td>      <!-- Muestra el email del usuario -->
-                                        <td>${usuario.estado}</td>     <!-- Muestra el estado del usuario -->
-                                        <td>${usuario.restablecer}</td> <!-- Muestra si el usuario tiene la opción de restablecer su cuenta -->
-                                        <td>
-                                            <!-- Enlaces para editar, ver detalles o eliminar el usuario -->
-                                            <a href="/Usuarios/Edit/${usuario.idUsuario}">Edit</a> |
-                                            <a href="/Usuarios/Details/${usuario.idUsuario}">Details</a> |
-                                            <a href="/Usuarios/Delete/${usuario.idUsuario}">Delete</a>
-                                        </td>
-                                    </tr>`;
-                            tabla.innerHTML += fila;  // Añadimos la fila a la tabla
-                        });
-
-                        // Aumentamos la página para la próxima solicitud
-                        pagina++;
-                        usuariosCargados += data.length;  // Incrementamos el número de usuarios cargados
-                    }
-
-                    // Si ya no hay más usuarios, ocultamos el botón
-                    if (data.length < cantidadPorPagina) {
-                        $("#cargarMas").hide();  // Ocultamos el botón "Cargar más" si no hay más usuarios
-                    }
-                },
-                error: function () {
-                    console.log("Error al cargar los usuarios");
-                }
-            });
+    <script>
+        function deleteUser(id) {
+            if (confirm("¿Estás seguro de que deseas eliminar este usuario?")) {
+                fetch(`/api/Usuarios/DeleteUsuario/${id}`, { method: 'DELETE' })
+                    .then(response => {
+                        if (response.ok) {
+                            location.reload();
+                        } else {
+                            alert("Error al eliminar el usuario");
+                        }
+                    });
+            }
         }
-
-        // Cuando el documento se carga completamente, llamamos a la función cargarUsuarios
-        document.addEventListener("DOMContentLoaded", function () {
-            cargarUsuarios();  // Llamamos a la función al cargar la página inicialmente
-        });
-
-        // Configuración del botón "Cargar más"
-        $(document).ready(function () {
-            $("#cargarMas").click(function () {
-                cargarUsuarios();  // Llamamos a la función cuando el usuario haga clic en "Cargar más"
-            });
-        });
     </script>
 
-
-    <button id="cargarMas">Cargar más</button>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function toggleUserStatus(id) {
+            fetch(`/Usuarios/ToggleStatus/${id}`, {
+                method: "PUT", // ✅ Ahora usa PUT en lugar de POST
+                headers: { "Content-Type": "application/json" }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    alert("Error al cambiar el estado del usuario.");
+                    return;
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data && data.estado) {
+                    let button = document.querySelector(`button[data-user-id='${id}']`);
+                    button.textContent = data.estado === "Activo" ? "Activo ✅" : "Inactivo ❌";
+                    button.className = data.estado === "Activo" ? "btn btn-sm btn-success" : "btn btn-sm btn-warning";
+                }
+            })
+            .catch(error => console.error("❌ Error al actualizar estado:", error));
+        }
+    </script>
 }

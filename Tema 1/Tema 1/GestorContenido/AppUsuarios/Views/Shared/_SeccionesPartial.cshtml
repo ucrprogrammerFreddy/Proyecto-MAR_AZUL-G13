@@ -1,0 +1,19 @@
+﻿@model List<Secciones>
+
+@if (Model != null && Model.Any())
+{
+    @foreach (var seccion in Model)
+    {
+        <ul>
+            <li>
+                <a class="nav-link" asp-controller="Secciones" asp-action="MainPage" asp-route-id="@seccion.IdSeccion">
+                    @seccion.Nombre
+                </a>
+            </li>
+        </ul>
+    }
+}
+else
+{
+    <p class="text-muted px-3">No hay secciones disponibles</p>
+}

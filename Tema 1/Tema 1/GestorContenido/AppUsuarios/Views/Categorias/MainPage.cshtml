@@ -1,0 +1,95 @@
+﻿@model AppUsuarios.Models.Categorias
+
+<header class="py-5 position-relative" style="background-image: url('@Url.Content( Model.UrlImagen)'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+	<!-- Overlay para oscurecer la imagen y resaltar el texto -->
+	<div style="position: absolute; top:0; left:0; right:0; bottom:0; background: rgba(0,0,0,0.5);"></div>
+	<div class="container px-4 px-lg-5 my-5 position-relative">
+		<div class="text-center text-white">
+			<h1 class="display-4 fw-bolder">@Model.Nombre</h1>
+			<p class="lead fw-normal text-white-50 mb-0">@Model.Descripcion</p>
+		</div>
+	</div>
+</header>
+
+<section class="py-5">
+	<div class="container px-4 px-lg-5 mt-5">
+		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+			<!-- Input para filtrar artículos -->
+			<input type="text" id="searchInput" class="form-control mb-3" placeholder="Buscar publicación por título...">
+			@if (Model.Articulo != null && Model.Articulo.Any())
+			{
+				foreach (var cat in Model.Articulo)
+				{
+					<div class="card mb-3 mx-3  hover-card articulo-card" style="max-width: 540px; border: none;">
+						<div class="row g-0">
+							<div class="col-md-4 p-0">
+								<img class="img-fluid w-100 h-100"
+									 style="object-fit: cover; border-radius: 0; display: block;"
+									 src="@(string.IsNullOrEmpty(cat.UrlImagen)
+                ? "https://dummyimage.com/450x450/dee2e6/6c757d.jpg"
+                : Url.Content(cat.UrlImagen))"
+									 alt="@cat.Nombre">
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">@cat.Nombre</h5>
+									<div class="row">
+										<div class="col">
+											<b>Fecha de publicación:</b>
+										</div>
+										<div class="col fs-6 " >
+											@cat.FechaPublicacion
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<b>Descripción:</b>
+										</div>
+										
+									</div>
+									<div class="row mb-3">
+										<p class="card-text">@cat.Descripcion</p>
+									</div>
+
+
+									<a href="@Url.Action("Detalle", "Home", new { id = cat.IdArticulo })" class="btn btn-primary">
+										Ver más
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<style>
+						.hover-card:hover {
+							transform: scale(1.05); /* Hace que la tarjeta crezca un poco */
+							transition: transform 0.3s ease-in-out; /* Transición suave */
+							box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más grande */
+						}
+					</style>
+
+				}
+			}
+			else
+			{
+				<p class="text-center">No hay artículos disponibles.</p>
+			}
+		</div>
+	</div>
+</section>
+
+
+@section Scripts {
+	<script>
+		document.getElementById('searchInput').addEventListener('input', function () {
+			let filter = this.value.toLowerCase();
+			let cards = document.querySelectorAll('.articulo-card');
+
+			cards.forEach(card => {
+				let title = card.querySelector('.card-title').textContent.toLowerCase();
+				card.style.display = title.includes(filter) ? 'block' : 'none';
+			});
+		});
+	</script>
+}

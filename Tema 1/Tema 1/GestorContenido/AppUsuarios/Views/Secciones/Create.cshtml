@@ -1,0 +1,55 @@
+﻿@model AppUsuarios.Models.Secciones
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Secciones</h4>
+<hr />
+<!-- Formulario -->
+<div class="container mt-4">
+    <div class="card shadow-lg p-4 rounded-4">
+        <h4 class="mb-4">Formulario de Sección</h4>
+        <form asp-controller="Secciones" asp-action="Create" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            <div class="mb-3">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" required />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" required />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <!-- En Views/Secciones/Create.cshtml -->
+            <div class="mb-3">
+                <label class="control-label">Imagen</label>
+                <input type="file" class="form-control" name="ImagenFile" required /> <!-- Cambia "Imagen" a "ImagenFile" -->
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Estado" class="form-label">Estado:</label>
+                <select asp-for="Estado" class="form-select" required>
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="A">Activo</option>
+                    <option value="Z">Inactivo</option>
+                </select>
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Volver</a>
+                <button type="submit" class="btn btn-primary">Aceptar</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

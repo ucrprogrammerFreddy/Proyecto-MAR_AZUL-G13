@@ -1,12 +1,73 @@
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.min.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.min.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.min.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.min.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.min.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.min.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.min.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.min.css
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.esm.js
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.esm.js.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.esm.min.js
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.esm.min.js.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.js
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.js.map
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.min.js
+C:\Users\Usuario\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map
 wwwroot\css\Home.css
 wwwroot\css\Logo.png
 wwwroot\css\PaginaPrincipal.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\02bc2a3c-13d6-4deb-a374-47b900029ee0_a.png
+wwwroot\img\09ab237f-19b3-40ce-8ad7-440de78c6806_01.png
+wwwroot\img\0a89db62-8efd-421d-9481-10173aa5465f_a.png
+wwwroot\img\258c740a-0773-4d3f-816d-cef5c2841dd8_ANIMALPLANET.jpg
+wwwroot\img\284e56de-8e7e-4963-a0e2-3d9338c0ad24_01.png
+wwwroot\img\2e857329-b0e7-4f63-b813-dc2b02adf14f_WhatsApp Image 2025-02-17 at 23.58.22_e6b4e71d.jpg
+wwwroot\img\35c3363d-ec2a-47ce-bcf6-3dc8a3615aab_01.png
+wwwroot\img\3a0e1cfe-3ee7-43d0-aed7-48e09530ff76_Calendario.png
+wwwroot\img\45342bab-d6c8-4f17-8795-72a8c54ab9fd_house.png
+wwwroot\img\4cc37022-5c7b-4ac1-a808-ae5db40d1a85_house.png
+wwwroot\img\6c8a2050-889b-4d67-8c15-05c3db71790b_01.png
+wwwroot\img\893dffb0-eed3-4f50-9a2f-81f37471e012_Diagrama_MER_Proyecto_Inventario.png
+wwwroot\img\8fd4d947-b0cf-4d6d-afe9-e68e1175ff31_Calendario.png
+wwwroot\img\9d5d267b-8a7d-4af5-9cd1-8e2dc0360155_code.jpeg
+wwwroot\img\b15291ed-d64d-4a5e-b21d-026bf39041c5_Captura de pantalla (17).png
 wwwroot\img\index.jpg
 wwwroot\img\index1.jpg
 wwwroot\img\index3.jpg
+wwwroot\img\logo.png
 wwwroot\img\video1.mp4
+wwwroot\js\scripts.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -65,3 +126,58 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\uploads\00d5e2e5-13d9-4bab-9cbc-9d3b8c6a079b_MyIC_Inline_32052.jpeg
+wwwroot\uploads\070ce53c-c302-43fa-8d48-d8002b4f1b5f_reddit.png
+wwwroot\uploads\090037f8-2b6d-44a7-a137-f20b839a2cc5_Captura de pantalla 2024-09-22 130432.png
+wwwroot\uploads\0e51a889-4959-41f8-b5fb-d96d8adb5bd9_steam.png
+wwwroot\uploads\126f9440-72a0-4d5d-bfb4-a6ec95b08280_nytimes.png
+wwwroot\uploads\1369cca7-9879-4eee-aa21-088457f34261_dotnet.png
+wwwroot\uploads\14abcbc9-781f-4beb-afb5-c1a3143b495a_reddit.png
+wwwroot\uploads\1610a2bf-f5ac-482d-8679-7ce695a12e92_steam.png
+wwwroot\uploads\163a63cb-7e3b-44e9-91d2-dcb8c1a3aafc_2089fa9c-4e5d-4069-bc0e-2b734fc52a76.jpeg
+wwwroot\uploads\172103e7-6fc7-4446-8162-349bf40e5732_Captura de pantalla (16).png
+wwwroot\uploads\181f9bd4-2447-4807-ae5a-06d6a720681c_nytimes.png
+wwwroot\uploads\19bb74ec-7e37-4285-b32e-a1a1b86ff501_steam.png
+wwwroot\uploads\1f03f193-a209-497f-a45d-1d1a6e3b758e_Captura de pantalla 2024-09-23 162603.png
+wwwroot\uploads\1fa92600-887d-4773-bf1c-f12e0e480742_nytimes.png
+wwwroot\uploads\2066207e-4875-4c81-877e-9f9cb74be916_Captura de pantalla (7).png
+wwwroot\uploads\20febbc9-bad5-4974-95b2-dffa3215f9e9_WhatsApp Image 2025-02-17 at 23.58.22_e6b4e71d.jpg
+wwwroot\uploads\222735f6-20cc-4df1-9229-9777ca183330_Captura de pantalla (20).png
+wwwroot\uploads\26dc8fd6-5144-4c1a-b3cc-bcffccd89d75_nytimes.png
+wwwroot\uploads\279aaab1-7bc3-4ec4-86b4-d06baa0ff5c5_a.png
+wwwroot\uploads\29574968-6424-4914-b877-a04039c9eb7b_reddit.png
+wwwroot\uploads\2acfd944-30f3-4082-9048-4d2a13f08856_Captura de pantalla (19).png
+wwwroot\uploads\33c132c7-aa74-4548-96b9-53ab4d9a0f5c_Captura de pantalla 2024-09-22 130432.png
+wwwroot\uploads\39c08005-6ab1-4ed2-9d3a-767e7c2bbd7e_astronomia-1-e1580089605623-800x400.jpg
+wwwroot\uploads\3d3a6f07-91b4-4990-8e96-cefb605489b9_steam.png
+wwwroot\uploads\3ebef997-0bfa-4134-b9d7-a2ffbd73e1b5_deportes.jpeg
+wwwroot\uploads\4388c6a4-5cfa-40a4-a1d6-59d8bf126540_steam.png
+wwwroot\uploads\43980791-4b4d-48f4-b4d8-ddc697309492_tendencias-futuro-tecnologia-2024.jpg
+wwwroot\uploads\54ca0f02-7a80-4e4e-9b45-3583e5d3896a_dotnet.png
+wwwroot\uploads\57db5ade-7137-47b9-8241-3b82b6079fab_steam.png
+wwwroot\uploads\60818489-84aa-4cca-95c5-d23ea870f685_Diagrama_MER_Proyecto_Inventario.png
+wwwroot\uploads\686f7ca2-ed73-496b-b33b-fad84953712b_reddit.png
+wwwroot\uploads\6d0ffaa5-577b-45d6-94b6-dc0fdeda281a_deportes.jpeg
+wwwroot\uploads\7019db76-79cc-4496-a672-c55a5a7e9aec_fotolinkedin.jpg
+wwwroot\uploads\77e59281-5dc1-4c63-be51-4957bf6f40ba_steam.png
+wwwroot\uploads\803bd6bb-7963-4750-90f4-848ce6a70fcb_fotolinkedin.jpg
+wwwroot\uploads\869590aa-7529-4e2f-912d-96add12da533_avatar.png
+wwwroot\uploads\87c360ab-a6cf-42c1-af7b-3c95ef253cd4_steam.png
+wwwroot\uploads\8800bda1-5417-40b3-8856-f5c26db46607_futbol.jpeg
+wwwroot\uploads\9609bbb0-d4ac-4f27-b11f-498093e5d2cb_steam.png
+wwwroot\uploads\975afdc4-97c0-4ccd-9088-b9ed48a0d518_WhatsApp Image 2025-02-17 at 23.58.22_e6b4e71d.jpg
+wwwroot\uploads\9b1c2164-910f-462a-a6d2-b935df458f83_avatar.png
+wwwroot\uploads\a041f400-e406-499c-8bf9-ef3e271abc68_fotolinkedin.jpg
+wwwroot\uploads\ab89e787-e762-45ec-a49a-ef092e9cc257_nytimes.png
+wwwroot\uploads\b1d502f7-2d8f-4496-a6be-c208273b285c_reddit.png
+wwwroot\uploads\c516b35a-9c62-4cf0-96cb-63315831696e_reddit.png
+wwwroot\uploads\c6d2dce3-f704-4f86-9ee8-8c73d55d5ead_2089fa9c-4e5d-4069-bc0e-2b734fc52a76.jpeg
+wwwroot\uploads\ca23b03d-e579-4703-a74e-c2df8140432c_avatar.png
+wwwroot\uploads\d535f599-6b3d-492a-ab08-2194c90575d5_amazon.png
+wwwroot\uploads\d6def855-4842-48a5-867a-2d702ac9707b_reddit.png
+wwwroot\uploads\d91ea1f2-42fb-4c84-8b87-f3f020ef8062_a.png
+wwwroot\uploads\da66b0dd-0927-438a-a3d2-108343052e74_steam.png
+wwwroot\uploads\df46c22a-8b8a-46b0-a0cb-c0c2b6d5ea22_WhatsApp Image 2025-02-17 at 23.58.22_e6b4e71d.jpg
+wwwroot\uploads\e1611548-6a2d-4d1c-91e8-d3e6d0c3b026_code.jpeg
+wwwroot\uploads\f2c86724-6829-44cf-8bbc-0ee028a51222_reddit.png
+wwwroot\uploads\f50e1291-b8d5-474e-8900-af883f1bf933_envelope.png

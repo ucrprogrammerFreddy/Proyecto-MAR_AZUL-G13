@@ -1,5 +1,10 @@
 using AppUsuarios.Models;
+using AppUsuarios.Services;
+using Castle.Core.Smtp;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http.Features;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 // Importa el paquete para trabajar con Entity Framework Core, usado para interactuar con la base de datos.
 using Microsoft.EntityFrameworkCore;
 
@@ -10,27 +15,27 @@ var builder = WebApplication.CreateBuilder(args);
 // Configuración de servicios para la aplicación:
 //
 
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 // ==========================================================================
 // Configuración de la autenticación con cookies
 // ==========================================================================
 
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).
-    AddCookie(options =>
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
     {
-        // Define el nombre de la cookie que se utilizará para la autenticación
         options.Cookie.Name = "CookieAuthentication";
-        // La cookie solo se envía mediante HTTP (previniendo accesos por scripts maliciosos)
         options.Cookie.HttpOnly = true;
-        // Tiempo de expiración de la cookie (59 minutos en este caso)
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(59);
-        // Ruta a la que se redirige el usuario si no está autenticado
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+        options.Cookie.SameSite = SameSiteMode.Strict;
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
         options.LoginPath = "/Usuarios/Login";
-        // Ruta a la que se redirige si el acceso es denegado
         options.AccessDeniedPath = "/Usuarios/AccessDenied";
-        // Permite que la cookie se renueve si el usuario continúa activo (expiración deslizante)
         options.SlidingExpiration = true;
     });
+
+builder.Services.AddAuthorization();
+
 
 // ==========================================================================
 // Configuración de autorización y políticas de roles
@@ -38,9 +43,10 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddAuthorization(options =>
 {
     // Política que requiere que el usuario tenga el rol "Admin"
-    options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Administrador"));
     // Política que requiere que el usuario tenga el rol "Member"
-    options.AddPolicy("MemberPolicy", policy => policy.RequireRole("Member"));
+    options.AddPolicy("MemberPolicy", policy => policy.RequireRole("Autorizador"));
+    options.AddPolicy("MemberPolicy", policy => policy.RequireRole("Escritor"));
 
 });
 
@@ -56,6 +62,18 @@ builder.Services.AddSession(options =>
     // Marca la cookie como esencial para el funcionamiento de la aplicación
     options.Cookie.IsEssential = true;
 });
+
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 104857600; // 100 MB (ajústalo según necesites)
+
+
+
+
+});
+
+
+
 
 
 // ==========================================================================
@@ -96,10 +114,27 @@ builder.Services.AddDbContext<AppUsuarios.Models.DbContextGestionContenido>(
         )
 );
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirTodo",
+        policy => policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+});
+
 // ==========================================================================
 // Construcción de la aplicación con la configuración registrada
 // ==========================================================================
 // Construye la aplicación, aplicando todas las configuraciones definidas anteriormente.
+
+// Registrar HttpClientFactory
+
+builder.Services.AddHttpClient("ApiClient", client =>
+{
+    client.BaseAddress = new Uri("http://marazulapi.somee.com/api/"); // ? Ajusta seg?n Swagger
+});
+
 var app = builder.Build();
 
 
@@ -132,6 +167,8 @@ app.UseStaticFiles();
 
 // Configura el sistema de enrutamiento de solicitudes.
 app.UseRouting();
+
+app.UseCors("PermitirTodo");
 
 // Habilita el middleware de autorización.
 // Esto asegura que las partes de la aplicación protegidas por políticas de autorización requieran que los usuarios tengan los permisos adecuados.

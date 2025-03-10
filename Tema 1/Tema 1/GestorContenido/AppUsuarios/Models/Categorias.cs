@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace AppUsuarios.Models
 {
     public class Categorias
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdCategoria { get; set; }
 
         [Required(ErrorMessage = "El nombre es obligatorio.")]
@@ -17,18 +19,26 @@ namespace AppUsuarios.Models
         [StringLength(600, ErrorMessage = "La descripción no puede exceder los 600 caracteres.")]
         public string Descripcion { get; set; }
 
-        public string UrlImagen { get; set; }
+        [Display(Name = "Imagen URL")]
+        public string? UrlImagen { get; set; }
 
         [Required(ErrorMessage = "El estado es obligatorio.")]
         [RegularExpression("[A-Z]", ErrorMessage = "El estado debe ser un único carácter en mayúscula.")]
         public char Estado { get; set; }
 
         // categoria a una sola seccion 
-       public int IdSeccion { get; set; }
-        public Secciones Seccion { get; set; }
-        
+       public int? IdSeccion { get; set; }
+        [JsonIgnore]
 
-        // ✅ Relación Uno a Muchos: Una Categoría tiene muchos Artículos
+        [ForeignKey("IdSeccion")]
+        public Secciones? Seccion { get; set; }
+
+        [JsonIgnore]
+        [NotMapped]
+        public IFormFile? ImagenFile { get; set; } // Archivo de imagen que subirá el usuario
+
+
+        [JsonIgnore]
         public ICollection<Articulos> Articulo { get; set; } = new List<Articulos>();
 
         // ✅ Relación con Secciones (Una Sección tiene muchas Categorías)

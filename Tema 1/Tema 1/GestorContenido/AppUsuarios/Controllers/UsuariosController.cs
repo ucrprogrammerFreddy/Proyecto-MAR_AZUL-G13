@@ -1,310 +1,473 @@
-﻿using AppUsuarios.DTOs;
-using AppUsuarios.Models;  // Importa los modelos definidos en el proyecto.
-using Microsoft.AspNetCore.Authentication;  // Maneja la autenticación del usuario.
+﻿
+using AppUsuarios.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Security.Claims;
+using System.Text;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;  // Proporciona funcionalidades para gestionar controladores y vistas.
-using Microsoft.EntityFrameworkCore;  // Permite trabajar con bases de datos usando Entity Framework.
-using Microsoft.Extensions.Caching.Memory;  // Gestiona la autorización basada en roles o claims.
-using System.Security.Claims;  // Define y administra los claims de usuario para la autorización.
+using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
-namespace AppUsuarios.Controllers  // Define el espacio de nombres del controlador.
+
+namespace AppUsuarios.Controllers
 {
-
-
-    /* si la lista de usuarios no cambia constantemente, se puede cachearla para eivitar consultas repetitivas la base de datos
-     Detalles de usuarios : se pueden cachear proque generalmente no cambian con frecuencia*/
-
-
-    public class UsuariosController : Controller  // Controlador responsable de gestionar los usuarios.
+    [Route("Usuarios")]
+    public class UsuariosController : Controller
     {
-        private readonly DbContextGestionContenido _context;  // Contexto de base de datos para acceder a los usuarios.
+        private readonly HttpClient _httpClient;
         private readonly IMemoryCache _cache;
-        private static string EmailRestablecer = "";  // Variable para almacenar temporalmente el email en el proceso de restablecimiento.
+        private readonly string _apiBaseUrl;
+        private readonly string _apiLoginBaseUrl; //  Nueva API para autenticación
+        private readonly DbContextGestionContenido _context;
 
-
-        // Constructor del controlador, inicializa el contexto de la base de datos.
-        public UsuariosController(DbContextGestionContenido context, IMemoryCache cache)
+        public UsuariosController(IHttpClientFactory httpClientFactory, IMemoryCache cache, IConfiguration configuration, DbContextGestionContenido context)
         {
-            _context = context;  // Asigna el contexto proporcionado al controlador.
+            _context = context;
+            _httpClient = new Conexion().Iniciar();
             _cache = cache;
+            _apiBaseUrl = configuration["ApiUrls:UsuariosApi"]?.TrimEnd('/') ?? string.Empty;
+            _apiLoginBaseUrl = configuration["ApiUrls:LoginAuthApi"]?.TrimEnd('/') ?? string.Empty; // ✅ Ahora usamos la API de login
+
+            if (string.IsNullOrEmpty(_apiBaseUrl))
+                throw new Exception("❌ ERROR: La URL base de la API de gestión de usuarios no está configurada en appsettings.json.");
+
+            if (string.IsNullOrEmpty(_apiLoginBaseUrl))
+                throw new Exception("❌ ERROR: La URL base de la API de autenticación no está configurada en appsettings.json.");
         }
 
-        // -------------------- LOGIN / LOGOUT --------------------
-
-        [HttpGet]  // Este método responde a peticiones HTTP GET.
-        public IActionResult Login()  // Muestra la vista de inicio de sesión.
+        ///  **Mostrar formulario de Login**
+        [HttpGet("Login")]
+        public IActionResult Login(string returnUrl = null)
         {
-            return View();  // Devuelve la vista correspondiente.
+            ViewData["ReturnUrl"] = returnUrl;
+            return View();
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login([Bind] UsuarioDTO userDto)
+
+        ///  **Procesar login**
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login([FromForm] string email, [FromForm] string clave, [FromForm] string returnUrl = null)
         {
-            if (userDto == null || string.IsNullOrEmpty(userDto.Email) || string.IsNullOrEmpty(userDto.Clave))
+            Console.WriteLine($"📤 Intentando login con Email: '{email}'");
+
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(clave))
             {
-                TempData["Mensaje"] = "Debe proporcionar el email y la contraseña.";
-                return View(userDto);
+                Console.WriteLine("⚠️ Email o clave vacíos.");
+                ViewData["Error"] = "⚠️ Email y contraseña son obligatorios.";
+                return View();
             }
 
-            var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(u => u.Email == userDto.Email);
+            //  Normalizar email antes de enviarlo
+            email = email.Trim().ToLower();
 
-            if (usuario == null || !usuario.Clave.Equals(userDto.Clave) || usuario.Estado != "Activo")
+            string apiUrl = $"{_apiLoginBaseUrl}/Login";
+            var loginRequest = new { Email = email, Clave = clave };
+
+            try
             {
-                TempData["Mensaje"] = "El email o la contraseña son incorrectos o el usuario no está activo.";
-                return View(userDto);
+                var response = await _httpClient.PostAsync(apiUrl,
+                    new StringContent(JsonConvert.SerializeObject(loginRequest), Encoding.UTF8, "application/json"));
+
+                string jsonResponse = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"🔹 Respuesta completa de la API: {jsonResponse}");
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    Console.WriteLine("❌ Usuario o clave incorrectos.");
+                    ViewData["Error"] = "❌ Usuario o clave incorrectos.";
+                    return View();
+                }
+
+                dynamic result = JsonConvert.DeserializeObject<dynamic>(jsonResponse);
+                if (result == null || result.usuario == null)
+                {
+                    Console.WriteLine("⚠️ Error: La API no devolvió un usuario válido.");
+                    ViewData["Error"] = "⚠️ Error en la respuesta del servidor.";
+                    return View();
+                }
+
+                if (result.usuario.estado.ToString() != "Activo")
+                {
+                    Console.WriteLine("❌ Usuario inactivo.");
+                    ViewData["Error"] = "❌ Tu cuenta aún no ha sido activada por un administrador.";
+                    return View();
+                }
+
+                string role = result.usuario.rol.ToString().Trim();
+                if (role == "administrador") role = "Administrador";
+                if (role == "autorizador") role = "Autorizador";
+                if (role == "escritor") role = "Escritor";
+
+                Console.WriteLine($"✅ Rol asignado: {role}");
+
+                var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, result.usuario.email.ToString()),
+            new Claim(ClaimTypes.Email, result.usuario.email.ToString()),
+            new Claim(ClaimTypes.Role, role),
+            new Claim("UserId", result.usuario.idUsuario.ToString())
+        };
+
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var authProperties = new AuthenticationProperties { IsPersistent = true };
+
+                await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+                Console.WriteLine($"✅ Usuario autenticado: {result.usuario.email}");
+
+                return role switch
+                {
+                    "Administrador" => RedirectToAction("Index", "Admin"),
+                    "Autorizador" => RedirectToAction("Index", "Autorizador"),
+                    "Escritor" => RedirectToAction("Index", "Escritor"),
+                    _ => RedirectToAction("Login")
+                };
             }
-
-            var claims = new List<Claim>
-    {
-        new Claim(ClaimTypes.Name, usuario.Nombre),
-        new Claim(ClaimTypes.Email, usuario.Email),
-        new Claim(ClaimTypes.Role, usuario.Rol)
-    };
-
-            var identity = new ClaimsIdentity(claims, "Login");
-            var principal = new ClaimsPrincipal(identity);
-
-            await HttpContext.SignInAsync(principal);
-            TempData["Mensaje"] = "Inicio de sesión exitoso.";
-
-            return RedirectToAction("Index");
-        }
-
-        [HttpGet]  // Este método responde a peticiones HTTP GET.
-        public async Task<IActionResult> Logout()  // Finaliza la sesión del usuario.
-        {
-            await HttpContext.SignOutAsync();  // Cierra la sesión actual.
-            TempData["Mensaje"] = "Sesión cerrada correctamente.";  // Mensaje de cierre de sesión.
-            return RedirectToAction("Login");  // Redirige a la vista de login.
-        }
-
-        // -------------------- CRUD: INDEX, CREATE, EDIT, DETAILS, DELETE --------------------
-
-
-        [HttpGet]
-        public JsonResult GetUsuarios(int pagina = 1)
-        {
-            int cantidadPorPagina = 5;  // Definimos 5 usuarios por página
-
-            var usuarios = _context.Usuarios
-                .OrderBy(u => u.IdUsuario)  // Ordenamos por ID o el campo que necesites
-                .Skip((pagina - 1) * cantidadPorPagina)  // Desplazamos según la página actual
-                .Take(cantidadPorPagina)  // Tomamos solo los 5 usuarios de esta página
-                .Select(u => new { u.IdUsuario, u.Nombre, u.Email, u.Estado, u.Restablecer })  // Seleccionamos solo los campos necesarios
-                .ToList();
-
-            return Json(usuarios);  // Devolvemos los usuarios como JSON
-        }
-
-
-
-        [HttpGet]
-        public async Task<IActionResult> Index()
-        {
-            var cacheKey = "ListaUsuarios";
-            if (!_cache.TryGetValue(cacheKey, out List<Usuario> usuarios))
+            catch (Exception ex)
             {
-                usuarios = await _context.Usuarios.ToListAsync();
-
-                // Cache por 5 minutos
-                var cacheOptions = new MemoryCacheEntryOptions()
-                    .SetAbsoluteExpiration(TimeSpan.FromMinutes(5));
-
-                _cache.Set(cacheKey, usuarios, cacheOptions);
+                Console.WriteLine($"❌ Excepción en Login: {ex.Message}");
+                ViewData["Error"] = "❌ Error al conectar con el servidor.";
+                return View();
             }
-            return View(usuarios);
         }
 
-        [HttpGet]  // Este método responde a peticiones HTTP GET.
-        public IActionResult Create()  // Muestra el formulario para crear un nuevo usuario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        [HttpGet("AccessDenied")]
+        public IActionResult AccessDenied()
         {
-            return View();  // Retorna la vista correspondiente.
+            return View();
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind] Usuario usuario)
+
+        [HttpPost("ToggleStatus/{id}")]
+        public async Task<IActionResult> ToggleStatus(int id)
         {
-            if (_context.Usuarios.Any(u => u.Email == usuario.Email))
+            try
             {
-                TempData["Mensaje"] = "El email ya está en uso.";
-                return View(usuario);
+                string url = $"{_apiBaseUrl}/{id}";
+                HttpResponseMessage response = await _httpClient.GetAsync(url);
+                if (!response.IsSuccessStatusCode) return BadRequest("Usuario no encontrado.");
+
+                var usuario = JsonConvert.DeserializeObject<Usuario>(await response.Content.ReadAsStringAsync());
+                if (usuario == null) return BadRequest("Usuario no encontrado.");
+
+                // Alternar estado
+                usuario.Estado = usuario.Estado == "Activo" ? "Inactivo" : "Activo";
+
+                var json = JsonConvert.SerializeObject(new
+                {
+                    usuario.IdUsuario,
+                    usuario.Nombre,
+                    usuario.Email,
+                    usuario.Clave,
+                    usuario.Rol,
+                    usuario.Estado
+                });
+
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+                response = await _httpClient.PutAsync(url, content);
+
+                if (!response.IsSuccessStatusCode) return BadRequest("Error al actualizar usuario.");
+
+                return Json(new { estado = usuario.Estado, id = usuario.IdUsuario });
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Excepción en ToggleStatus: {ex.Message}");
+                return BadRequest("Error interno.");
+            }
+        }
 
-            usuario.Estado = "Activo";
-            usuario.Restablecer = "Pendiente";
 
-            _context.Usuarios.Add(usuario);
-            await _context.SaveChangesAsync();
 
-            // Invalidar cache
-            _cache.Remove("ListaUsuarios");
 
-            TempData["Mensaje"] = "Usuario creado correctamente.";
+
+
+
+
+
+        /// ✅ **Cerrar sesión**
+        [HttpGet("Logout")]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            Response.Cookies.Delete(".AspNetCore.Cookies");
+            TempData["Mensaje"] = "✅ Sesión cerrada correctamente.";
             return RedirectToAction("Login");
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Details(int id)
+
+
+      
+
+        public async Task<IActionResult> Index()
         {
-            var cacheKey = $"Usuario_{id}";
-            if (!_cache.TryGetValue(cacheKey, out Usuario usuario))
+            try
             {
-                usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.IdUsuario == id);
-                if (usuario == null)
+
+                if (!_cache.TryGetValue("UsuariosCache", out List<Usuario> usuarios))
                 {
-                    TempData["Mensaje"] = "Usuario no encontrado.";
-                    return RedirectToAction("Index");
+
+                    HttpResponseMessage response = await _httpClient.GetAsync("api/Usuario");
+
+                    // Se comprueba si la respuesta del API fue exitosa (código HTTP 200).
+                    if (response.IsSuccessStatusCode)
+                    {
+                        // Se lee el contenido de la respuesta (JSON) como cadena.
+                        string json = await response.Content.ReadAsStringAsync();
+
+
+                        // Se deserializa el JSON en una lista de objetos Etiqueta.
+                        usuarios = JsonConvert.DeserializeObject<List<Usuario>>(json);
+
+                        // Se pasa la lista de etiquetas a la vista para ser mostrada.
+                        _cache.Set("UsuariosCache", usuarios, TimeSpan.FromMinutes(5));
+                        return View(usuarios);
+
+                    }
+                    else
+                    {
+
+                        // Si el API devuelve un error, se almacena el mensaje en TempData.
+                        TempData["Mensaje"] = $"Error al obtener Categorias: {response.ReasonPhrase}";
+                        usuarios = new List<Usuario>();
+                    }
+
+                }
+                //retorna las etiquetas obtenidas (ya sea desde caché o API
+                return View(usuarios);
+            }
+            catch (Exception ex)
+            {
+                // Se captura cualquier excepción y se guarda el mensaje para mostrarlo al usuario.
+                TempData["Mensaje"] = $"Excepción: {ex.Message}";
+                return View(new List<Usuario>());  // En caso de error, se retorna la vista con una lista vacía.
+
+            }
+        }
+
+
+
+
+        /// ✅ **Mostrar formulario de creación**
+        [HttpGet("Create")]
+        public IActionResult Create() => View();
+
+        /// ✅ **Crear un usuario**
+        [HttpPost("Create")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([FromForm] Usuario usuario)
+        {
+            if (!ModelState.IsValid)
+            {
+                Console.WriteLine("⚠️ Error en ModelState: Datos faltantes o inválidos.");
+                return View(usuario);
+            }
+
+            try
+            {
+                usuario.Estado = "Inactivo";
+
+                string url = $"{_apiBaseUrl}/PostUsuario";
+                var json = JsonConvert.SerializeObject(usuario);
+
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                HttpResponseMessage response = await _httpClient.PostAsync(url, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    _cache.Remove("UsuariosCache");
+
+                    if (User.Identity.IsAuthenticated && User.IsInRole("Administrador"))
+                    {
+                        TempData["Mensaje"] = "✅ Usuario creado correctamente.";
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        TempData["Mensaje"] = "✅ Solicitud enviada. Un administrador debe aprobar tu cuenta.";
+                        return RedirectToAction("Login");
+                    }
                 }
 
-                // Cache por 10 minutos
-                var cacheOptions = new MemoryCacheEntryOptions()
-                    .SetAbsoluteExpiration(TimeSpan.FromMinutes(10));
-
-                _cache.Set(cacheKey, usuario, cacheOptions);
+                string errorMessage = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"⚠️ Error en Create: {response.StatusCode} - {errorMessage}");
+                TempData["Mensaje"] = $"⚠️ Error al solicitar la cuenta: {errorMessage}";
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Excepción en Create: {ex.Message}");
+                TempData["Mensaje"] = $"❌ Excepción: {ex.Message}";
+            }
+
             return View(usuario);
         }
 
-        [HttpGet]  // Este método responde a peticiones HTTP GET.
-        [Authorize(Roles = "Admin")]  // Restringe el acceso a usuarios con rol de administrador.
-        public async Task<IActionResult> Edit(int id)  // Muestra el formulario para editar un usuario.
-        {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.IdUsuario == id);  // Busca el usuario por su ID.
-            if (usuario == null)  // Verifica si el usuario existe.
-            {
-                TempData["Mensaje"] = "Usuario no encontrado.";  // Mensaje de error si no se encuentra.
-                return RedirectToAction("Index");  // Redirige a la lista de usuarios.
-            }
 
-            return View(usuario);  // Retorna la vista con el modelo del usuario.
-        }
 
-        [HttpPost]
+
+
+
+
+        /// ✅ **Eliminar usuario**
+        [HttpPost("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(int id, [Bind] Usuario usuario)
+        public async Task<IActionResult> Delete([FromForm] int id)
         {
-            var temp = await _context.Usuarios.FirstOrDefaultAsync(m => m.IdUsuario == id);
-            if (temp != null)
+            try
             {
-                _context.Usuarios.Remove(temp);
-                usuario.IdUsuario = id;
-                usuario.Clave = temp.Clave;
-                usuario.Restablecer = temp.Restablecer;
-                _context.Usuarios.Add(usuario);
-                await _context.SaveChangesAsync();
+                string url = $"{_apiBaseUrl}/{id}";
+                Console.WriteLine($"🔹 DELETE {url}");
 
-                // Invalidar cache
-                _cache.Remove("ListaUsuarios");
-                _cache.Remove($"Usuario_{id}");
+                HttpResponseMessage response = await _httpClient.DeleteAsync(url);
 
-                return RedirectToAction("Index", "Usuarios");
+                if (response.IsSuccessStatusCode)
+                {
+                    _cache.Remove("UsuariosCache");
+                    TempData["Mensaje"] = "✅ Usuario eliminado correctamente.";
+                }
+                else
+                {
+                    Console.WriteLine($"⚠️ Error en Delete: {response.StatusCode} - {response.ReasonPhrase}");
+                    TempData["Mensaje"] = $"⚠️ Error al eliminar usuario: {response.ReasonPhrase}";
+                }
             }
-            return RedirectToAction("Index", "Usuarios");
-        }
-
-
-        [HttpGet]  // Este método responde a peticiones HTTP GET.
-        [Authorize(Roles = "Admin")]  // Restringe el acceso a usuarios con rol de administrador.
-        public async Task<IActionResult> Delete(int id)  // Muestra la confirmación para eliminar un usuario.
-        {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.IdUsuario == id);  // Busca el usuario por su ID.
-            if (usuario == null)  // Verifica si el usuario existe.
+            catch (Exception ex)
             {
-                TempData["Mensaje"] = "Usuario no encontrado.";  // Mensaje de error si no se encuentra.
-                return RedirectToAction("Index");  // Redirige a la lista de usuarios.
+                Console.WriteLine($"❌ Excepción en Delete: {ex.Message}");
+                TempData["Mensaje"] = $"❌ Excepción: {ex.Message}";
             }
 
-            return View(usuario);  // Retorna la vista de confirmación.
+            return RedirectToAction("Index");
         }
-
-
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        [HttpGet("Details/{id}")]
+        public async Task<IActionResult> Details(int id)
         {
-            var usuario = await _context.Usuarios.FindAsync(id);
-            if (usuario != null)
+            try
             {
-                _context.Usuarios.Remove(usuario);
-                await _context.SaveChangesAsync();
+                string url = $"{_apiBaseUrl}/{id}"; // ✅ URL Final Correcta
 
-                // Invalidar cache
-                _cache.Remove("ListaUsuarios");
-                _cache.Remove($"Usuario_{id}");
+                Console.WriteLine($"🔹 GET {url}");
+
+                HttpResponseMessage response = await _httpClient.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string json = await response.Content.ReadAsStringAsync();
+                    var usuario = JsonConvert.DeserializeObject<Usuario>(json);
+                    return usuario != null ? View(usuario) : RedirectToAction("Index");
+                }
+
+                Console.WriteLine($"⚠️ Error en Details GET: {response.StatusCode} - {response.ReasonPhrase}");
+                TempData["Mensaje"] = "⚠️ Usuario no encontrado.";
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Excepción en Details GET: {ex.Message}");
+                TempData["Mensaje"] = $"❌ Excepción: {ex.Message}";
             }
 
             return RedirectToAction("Index");
         }
 
 
-        // -------------------- RESTABLECIMIENTO DE CONTRASEÑA --------------------
-
-        [HttpGet]  // Este método responde a peticiones HTTP GET.
-        public async Task<IActionResult> Restablecer(string? _email)  // Muestra la vista para restablecer la contraseña.
+        [HttpGet("Edit/{id}")]
+        public async Task<IActionResult> Edit(int id)
         {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == _email);  // Busca el usuario por su email.
-            if (usuario == null)  // Verifica si el usuario existe.
+            try
             {
-                TempData["Mensaje"] = "El usuario no existe.";  // Mensaje de error si no se encuentra.
-                return RedirectToAction("Login");  // Redirige a la vista de login.
+                string url = $"{_apiBaseUrl}/{id}"; // ✅ URL Final Correcta
+
+                Console.WriteLine($"🔹 GET {url}");
+
+                HttpResponseMessage response = await _httpClient.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string json = await response.Content.ReadAsStringAsync();
+                    var usuario = JsonConvert.DeserializeObject<Usuario>(json);
+                    return usuario != null ? View(usuario) : RedirectToAction("Index");
+                }
+
+                Console.WriteLine($"⚠️ Error en Edit GET: {response.StatusCode} - {response.ReasonPhrase}");
+                TempData["Mensaje"] = "⚠️ Usuario no encontrado.";
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Excepción en Edit GET: {ex.Message}");
+                TempData["Mensaje"] = $"❌ Excepción: {ex.Message}";
             }
 
-            SeguridadRestablecer restablecer = new SeguridadRestablecer  // Crea el modelo para la vista.
-            {
-                EmailRestablecer = usuario.Email  // Asigna el email del usuario al modelo.
-            };
-            EmailRestablecer = usuario.Email;  // Asigna el email a la variable estática.
-            return View(restablecer);  // Retorna la vista con el modelo.
+            return RedirectToAction("Index");
         }
 
-        [HttpPost]  // Este método responde a peticiones HTTP POST.
-        [ValidateAntiForgeryToken]  // Protege contra ataques CSRF.
-        public async Task<IActionResult> Restablecer([Bind] SeguridadRestablecer pRestablecer)  // Procesa el restablecimiento de la contraseña.
+
+
+        [HttpPost("Edit/{id}")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [FromForm] Usuario usuario)
         {
-            if (pRestablecer == null)  // Verifica si los datos proporcionados son válidos.
+            if (!ModelState.IsValid)
+                return View(usuario);
+
+            try
             {
-                TempData["Mensaje"] = "Datos incorrectos.";  // Mensaje de error si los datos son incorrectos.
-                return View(pRestablecer);  // Retorna la vista con el modelo.
+                string url = $"{_apiBaseUrl}/{id}"; // ✅ URL Final Correcta
+
+                Console.WriteLine($"🔹 PUT {url}");
+
+                var json = JsonConvert.SerializeObject(usuario, new JsonSerializerSettings
+                {
+                    NullValueHandling = NullValueHandling.Ignore,
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                });
+
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+                HttpResponseMessage response = await _httpClient.PutAsync(url, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    _cache.Remove("UsuariosCache");
+                    TempData["Mensaje"] = "✅ Usuario actualizado correctamente.";
+                    return RedirectToAction("Index");
+                }
+
+                Console.WriteLine($"⚠️ Error en Edit POST: {response.StatusCode} - {response.ReasonPhrase}");
+                TempData["Mensaje"] = $"⚠️ Error al actualizar usuario: {response.ReasonPhrase}";
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Excepción en Edit POST: {ex.Message}");
+                TempData["Mensaje"] = $"❌ Excepción: {ex.Message}";
             }
 
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email.Equals(EmailRestablecer));  // Busca el usuario por su email.
-            if (usuario == null || !usuario.Clave.Equals(pRestablecer.Clave))  // Verifica si el usuario existe y la contraseña es correcta.
-            {
-                TempData["Mensaje"] = "La contraseña actual es incorrecta o el usuario no existe.";  // Mensaje de error si la validación falla.
-                return View(pRestablecer);  // Retorna la vista con el modelo.
-            }
-
-            if (!pRestablecer.NuevaClave.Equals(pRestablecer.ConfirmarClave))  // Verifica que la nueva contraseña y la confirmación coincidan.
-            {
-                TempData["Mensaje"] = "La confirmación de la nueva contraseña no coincide.";  // Mensaje de error si no coinciden.
-                return View(pRestablecer);  // Retorna la vista con el modelo.
-            }
-
-            usuario.Clave = pRestablecer.ConfirmarClave;  // Actualiza la contraseña del usuario.
-            usuario.Restablecer = "Realizado";  // Actualiza el estado del restablecimiento.
-            _context.Usuarios.Update(usuario);  // Actualiza el usuario en la base de datos.
-            await _context.SaveChangesAsync();  // Guarda los cambios de forma asíncrona.
-
-            TempData["Mensaje"] = "Contraseña restablecida correctamente.";  // Mensaje de éxito.
-            return RedirectToAction("Login");  // Redirige a la vista de login.
+            return View(usuario);
         }
     }
-
-    /*
-     Uso de IMemoryCache Resumen
-
-        Se inyecta en el constructor y se usa para almacenar datos en memoria.
-        Aplicación de cache en Index y Details
-
-        Index: Se cachea la lista de usuarios por 5 minutos.
-        Details: Se cachea cada usuario individual por 10 minutos.
-        por último lo que hacemos es la Invalidación del cache
-
-        Cuando se crea, edita o elimina un usuario, se borra el cache correspondiente para mantener los datos actualizados.
-     
-     */
 }

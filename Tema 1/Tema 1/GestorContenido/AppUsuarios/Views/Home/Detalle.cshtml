@@ -1,0 +1,72 @@
+﻿@model AppUsuarios.Models.ArticuloViewModel
+
+@{
+    ViewData["Title"] = "Detalle del Artículo";
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>@Model.Nombre</h2>
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+                <!-- Imagen -->
+                <div class="col-md-4 text-center">
+                    <img src="@Model.UrlImagen" class="img-fluid img-thumbnail" alt="@Model.Nombre">
+                </div>
+
+                <!-- Información del artículo -->
+                <div class="col-md-8">
+                    <p><strong>Fecha de publicación:</strong> @Model.FechaPublicacion.ToString("dd MMMM yyyy")</p>
+                    <p><strong>Estado:</strong> @Model.Estado</p>
+                    <p><strong>Descripción:</strong> @Model.Descripcion</p>
+
+                    <!-- Etiquetas -->
+                    <p><strong>Etiquetas:</strong></p>
+                    <div class="etiquetas-container">
+                        @foreach (var etiqueta in Model.Etiquetas)
+                        {
+                            <span class="badge bg-secondary me-1">@etiqueta.Nombre</span>
+                        }
+                    </div>
+
+                    <!-- Autores -->
+                    <p><strong>Autores:</strong></p>
+                    <ul>
+                        @foreach (var autor in Model.Usuarios)
+                        {
+                            <li>@autor.Nombre</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contenido -->
+            <div class="mt-4">
+                <h4>Contenido</h4>
+                <p>@Html.Raw(Model.Contenido)</p>
+            </div>
+
+            <!-- Artículos Relacionados -->
+            <div class="mt-4">
+                <h4>Artículos Relacionados</h4>
+                <ul>
+                    @foreach (var relacionado in Model.ArticulosRelacionadosList)
+                    {
+                        <li><a href="@Url.Action("Detalle", "Home", new { id = relacionado.IdArticulo })">@relacionado.Nombre</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .etiquetas-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+</style>

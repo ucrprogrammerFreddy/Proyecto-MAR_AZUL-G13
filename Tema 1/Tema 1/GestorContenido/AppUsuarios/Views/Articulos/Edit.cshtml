@@ -1,0 +1,232 @@
+﻿@model AppUsuarios.Models.ArticuloViewModel
+
+@{
+    ViewData["Title"] = "Editar Publicación";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Publicación</title>
+
+    <!-- Bootstrap y Quill -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <!--
+    <style>
+        
+        .ql-toolbar {
+            background-color: #007bff !important;
+        }
+
+        .multi-select {
+            width: 100%;
+            min-height: 100px;
+            overflow-y: auto;
+        }
+
+        .hidden-checkbox {
+            display: none;
+        }
+
+        .etiquetas-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .etiqueta-label {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid #fff;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .hidden-checkbox:checked + .etiqueta-label {
+            background-color: #2667B9;
+            border-color: #1C8EE3;
+            color: white;
+        }
+	</style>
+    
+    -->
+
+</head>
+<body>
+
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-header text-center bg-primary text-white">
+                <h2>Editar Publicación</h2>
+            </div>
+            <div class="card-body">
+
+                @if (TempData["Mensaje"] != null)
+                {
+                    <div class="alert alert-info text-center">@TempData["Mensaje"]</div>
+                }
+
+                <form asp-action="Edit" enctype="multipart/form-data" method="post" id="articuloForm">
+
+                    <input type="hidden" asp-for="IdArticulo" />
+
+                    <!-- Primera fila: Categoría, Estado -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Categoría:</label>
+                            <select asp-for="IdCategoria" class="form-select">
+                                <option value="">Seleccionar</option>
+                                @foreach (var cat in Model.Categorias)
+                                {
+                                    <option value="@cat.IdCategoria">@cat.Nombre</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Estado:</label>
+                            <select asp-for="Estado" class="form-select">
+                                <option value="Borrador">Borrador</option>
+                                <option value="En Revisión">En Revisión</option>
+                                <option value="Pendiente de Corrección">Pendiente de Corrección</option>
+                                <option value="Publicado">Publicado</option>
+                                <option value="Archivado">Archivado</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Segunda fila: Imagen de portada -->
+                    <div class="row mb-3">
+                        <div class="col-md-12 text-center">
+                            <label class="form-label">Imagen portada:</label>
+                            <input type="file" name="ImagenFile" class="form-control" accept="image/*" onchange="previewImage(event)">
+                            <input type="hidden" id="urlImagen" asp-for="UrlImagen">
+                            <div class="mt-2">
+                                <img id="imagenPreview" src="@Model.UrlImagen" class="img-thumbnail" style="max-width: 50%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tercera fila: Etiquetas -->
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label class="form-label">Etiquetas asociadas:</label>
+                            <div class="etiquetas-container">
+                                @foreach (var etiqueta in Model.Etiquetas)
+                                {
+                                    <input type="checkbox" id="etiqueta_@etiqueta.IdEtiqueta"
+                                           name="SelectedEtiquetas"
+                                           value="@etiqueta.IdEtiqueta"
+                                           class="hidden-checkbox"
+                                    @(Model.SelectedEtiquetas.Contains(etiqueta.IdEtiqueta) ? "checked" : "") />
+
+                                    <label for="etiqueta_@etiqueta.IdEtiqueta" class="etiqueta-label">
+                                        @etiqueta.Nombre
+                                    </label>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuarta fila: Título, fecha -->
+                    <div class="row mb-3">
+                        <div class="col-md-8">
+                            <label class="form-label">Título:</label>
+                            <input asp-for="Nombre" class="form-control" placeholder="Título de Publicación" required>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label">Fecha de Publicación:</label>
+                            <input asp-for="FechaPublicacion" type="date" class="form-control">
+                        </div>
+                    </div>
+
+                    <!-- Quinta fila: Descripción -->
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label class="form-label">Descripción:</label>
+                            <textarea asp-for="Descripcion" class="form-control" placeholder="Ingrese la descripción"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Sexta fila: Contenido -->
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label class="form-label">Contenido:</label>
+                            <div id="editor" style="height: 300px;"></div>
+                            <input type="hidden" asp-for="Contenido" id="contenidoEditor">
+                        </div>
+                    </div>
+
+                    <!-- Séptima fila: Autores y autorizadores -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Autores:</label>
+                            <select asp-for="SelectedAutores" class="form-select multi-select" multiple>
+                                @foreach (var user in Model.Usuarios)
+                                {
+                                    <option value="@user.IdUsuario">@user.Email</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Autorizadores:</label>
+                            <select asp-for="SelectedAutorizadores" class="form-select multi-select" multiple>
+                                @foreach (var auth in Model.Autorizadores)
+                                {
+                                    <option value="@auth.IdUsuario">@auth.Nombre</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Octava fila: Observaciones -->
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label class="form-label">Observaciones:</label>
+                            <textarea asp-for="Observaciones" class="form-control" placeholder="Ingrese observaciones..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Botón de guardado -->
+                    <div class="text-center mt-3">
+                        <button type="submit" class="btn btn-success">Guardar Cambios</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Editor especial Quill -->
+    <script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.js"></script>
+    <script>
+        var quill = new Quill('#editor', { theme: 'snow' });
+        quill.root.innerHTML = "@Html.Raw(Model.Contenido)";
+
+        document.querySelector("#articuloForm").addEventListener("submit", function () {
+            document.getElementById("contenidoEditor").value = quill.root.innerHTML;
+        });
+
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                document.getElementById('imagenPreview').src = reader.result;
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+
+</body>
+</html>

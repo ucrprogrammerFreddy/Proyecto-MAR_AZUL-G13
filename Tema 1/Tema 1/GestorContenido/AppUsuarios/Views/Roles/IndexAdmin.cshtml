@@ -1,0 +1,186 @@
+﻿@{
+    var usuariosInactivos = (Model.Usuarios as List<Usuario> ?? new List<Usuario>())
+                            .Where(u => u.Estado == "Inactivo")
+                            .Take(10) // Para mostrar solo 10 si hay más registros en el scroll
+                            .ToList();
+    var etiquetas = Model.Etiquetas as List<Etiquetas> ?? new List<Etiquetas>();
+
+    ViewData["Title"] = "Panel de administración";
+}
+
+<head>
+    <style>
+        .scroll-container {
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px 0;
+        }
+
+        .scroll-panel {
+            max-height: 200px; /* Limita la altura de la tabla */
+            overflow-y: auto; /* Activa el scroll vertical */
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .gestion-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gestion-card {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background: #f8f9fa;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+            .gestion-card a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Gestión del Administrador</h1>
+
+        <!-- 🔹 TABLA DE USUARIOS PENDIENTES -->
+        <h3 class="section-title mt-4">Usuarios Pendientes de Aprobar</h3>
+        <div class="scroll-panel">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Email</th>
+                        <th>Nombre</th>
+                        <th>Rol</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (usuariosInactivos.Any())
+                    {
+                        foreach (var usuario in usuariosInactivos.Take(3))
+                        {
+                            <tr>
+                                <td>@usuario.IdUsuario</td>
+                                <td>@usuario.Email</td>
+                                <td>@usuario.Nombre</td>
+                                <td>@usuario.Rol</td>
+                                <td>
+                                    <button class="btn btn-sm @(usuario.Estado == "Activo" ? "btn-success" : "btn-warning")"
+                                            data-user-id="@usuario.IdUsuario"
+                                            onclick="toggleUserStatus(@usuario.IdUsuario)">
+                                        @(usuario.Estado == "Activo" ? "Activo ✅" : "Inactivo ❌")
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr><td colspan="5" class="text-center">No hay usuarios inactivos</td></tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+        <h3 class="section-title mt-4 bg-secondary text-white">Publicaciones Pendientes de Aprobación</h3>
+        <div class="scroll-container text-center">
+            <p class="text-muted">📌 Aquí se mostrarán las publicaciones pendientes de aprobación.</p>
+        </div>
+
+        <h3 class="section-title mt-4 bg-dark text-white">Publicaciones en Borradores</h3>
+        <div class="scroll-container text-center">
+            <p class="text-muted">📌 Aquí se mostrarán las publicaciones en borradores.</p>
+        </div>
+
+        <h3 class="section-title mt-4 bg-warning text-dark">Publicaciones Reenviadas para Edición</h3>
+        <div class="scroll-container text-center">
+            <p class="text-muted">📌 Aquí se mostrarán las publicaciones reenviadas para edición.</p>
+        </div>
+        <!-- 🔹 TABLA DE ETIQUETAS -->
+        <h3 class="section-title mt-4 bg-success">
+            Etiquetas Existentes
+            <a href="/Etiquetas/Create" class="btn btn-light btn-sm">Crear</a>
+        </h3>
+        <div class="scroll-panel">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Estado</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (etiquetas.Any())
+                    {
+                        foreach (var etiqueta in etiquetas)
+                        {
+                            <tr>
+                                <td>@etiqueta.IdEtiqueta</td>
+                                <td>@etiqueta.Nombre</td>
+                                <td>@etiqueta.Estado</td>
+
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr><td colspan="4" class="text-center">No hay etiquetas registradas</td></tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 🔹 BOTONES DE GESTIÓN -->
+        <h3 class="section-title mt-4 bg-danger text-white text-center">Gestiones</h3>
+        <div class="gestion-container">
+            <div class="gestion-card"><a asp-controller="Publicaciones" asp-action="Index"><i class="fa fa-book fa-2x"></i><br>Publicaciones</a></div>
+            <div class="gestion-card"><a asp-controller="Etiquetas" asp-action="Index"><i class="fa fa-tags fa-2x"></i><br>Etiquetas</a></div>
+            <div class="gestion-card"><a asp-controller="Usuarios" asp-action="Index"><i class="fa fa-user fa-2x"></i><br>Usuarios</a></div>
+            <div class="gestion-card"><a asp-controller="Secciones" asp-action="Index"><i class="fa fa-th-large fa-2x"></i><br>Secciones</a></div>
+            <div class="gestion-card"><a asp-controller="Categorias" asp-action="Index"><i class="fa fa-list fa-2x"></i><br>Categorías</a></div>
+            <div class="gestion-card"><a asp-controller="Estadisticas" asp-action="Index"><i class="fa fa-chart-bar fa-2x"></i><br>Estadísticas</a></div>
+        </div>
+    </div>
+</body>
+
+
+
+@section Scripts {
+
+
+    <script>
+        function toggleUserStatus(id) {
+            fetch(`/Usuarios/ToggleStatus/${id}`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    alert("Error al cambiar el estado del usuario.");
+                    return;
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data && data.estado) {
+                    let button = document.querySelector(`button[data-user-id='${id}']`);
+                    button.textContent = data.estado === "Activo" ? "Activo ✅" : "Inactivo ❌";
+                    button.className = data.estado === "Activo" ? "btn btn-sm btn-success" : "btn btn-sm btn-warning";
+                }
+            })
+            .catch(error => console.error("❌ Error al actualizar estado:", error));
+        }
+    </script>
+
+}

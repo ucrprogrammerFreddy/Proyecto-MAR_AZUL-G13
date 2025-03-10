@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Acceso Denegado";
+}
+
+<div class="container text-center mt-5">
+    <h2 class="text-danger">🚫 Acceso Denegado</h2>
+    <p>No tienes permisos para acceder a esta página.</p>
+    <a class="btn btn-primary" href="/">Volver al inicio</a>
+</div>
+@if (User.Identity.IsAuthenticated)
+{
+    <h3>Usuario autenticado: @User.Identity.Name</h3>
+    <h4>Roles asignados:</h4>
+    <ul>
+        @foreach (var claim in User.Claims)
+        {
+            <li>@claim.Type = @claim.Value</li>
+        }
+    </ul>
+}

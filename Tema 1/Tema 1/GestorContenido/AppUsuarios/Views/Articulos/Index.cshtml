@@ -1,0 +1,39 @@
+﻿@model List<AppUsuarios.Models.Articulos>
+
+@{
+    ViewData["Title"] = "Lista de Artículos";
+}
+
+<h2>Lista de Artículos</h2>
+<!--  lista de articulos-->
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>IdArticulo</th>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Estado</th>
+                <th>Fecha Publicación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--MOSTRAR DATOS DE ARTICULOS-->
+            @foreach (var art in Model)
+            {
+                <tr>
+                    <td>@art.IdArticulo</td>
+                    <td>@art.Nombre</td>
+                    <td>@art.IdCategoria</td>
+                    <td>@art.Estado</td>
+                    <td>@art.FechaPublicacion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay artículos disponibles.</p>
+}
